@@ -128,7 +128,7 @@ def generateM3U8(file):
 
             if "ct" in c:
                 line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
-                line2 = homeLanAddress + '/rtp/' + c["address"] + "\n"
+                line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             else:
                 line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
                 line2 = c["address"] + "\n"
@@ -146,7 +146,7 @@ def generateTXT(file):
         file.write(line)
 
         for c in v:
-            line = '%s,%s/rtp/%s\n' % (c["name"], homeLanAddress, c["address"])
+            line = '%s,%s/udp/%s\n' % (c["name"], homeLanAddress, c["address"])
             if "ct" not in c:
                 line = '%s,%s\n' % (c["name"], c["address"])
 
