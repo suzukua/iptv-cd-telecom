@@ -106,7 +106,7 @@ for c in m:
 
     line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], c["tag"], c["name"])
     file.write(line)
-    line = 'http://192.168.20.34:4000/rtp/' + c["address"] + "\n"
+    line = 'http://192.168.100.1:8686/rtp/' + c["address"] + "\n"
     file.write(line)
 
 file.close()
