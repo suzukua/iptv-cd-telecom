@@ -138,7 +138,8 @@ def generateM3U8(file):
 
     file.close()
     print("Build m3u8 success.")
-def generateM3U8(file):
+    
+def convertM3U8(file, new_file):
     url = 'http://epg.51zmt.top:8000/api/upload/'
     headers = {
         'Accept': '*/*',
@@ -155,8 +156,23 @@ def generateM3U8(file):
     }
     
     response = requests.post(url, headers=headers, files=files, verify=False)
-    
     print(response.text)
+    # 使用BeautifulSoup解析HTML
+    soup = BeautifulSoup(response.text, 'html.parser')
+    # 在HTML中查找下载链接
+    download_link = soup.find('a', href=True)
+    if download_link:
+        file_url = download_link['href']
+        # 获取绝对URL
+        absolute_url = urljoin(urlparse(url).scheme + "://" + urlparse(url).hostname, file_url)
+        # 下载文件
+        file_response = requests.get(absolute_url)
+        # 将'your_file_name.extension'替换为所需的文件名和扩展名
+        with open(new_file, 'wb') as file:
+            file.write(file_response.content)
+        print('文件成功下载！')
+    else:
+        print('在页面上找不到下载链接。')
 
 
 def generateTXT(file):
@@ -177,8 +193,8 @@ def generateTXT(file):
 
 
 def generateHome():
-    generateM3U8("./home/iptv.m3u8")
-    convertM3U8("./home/iptv.m3u8")
+    generateM3U8("./home/iptv_org.m3u8")
+    convertM3U8("./home/iptv_org.m3u8", "./home/iptv.m3u8")
     # generateTXT("./home/iptv.txt")
 
 #exit(0)
