@@ -13,10 +13,10 @@ import re
 #with open('./sctvmulticast.html') as f:
 #   res=f.read()
 
-sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
+# sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
 sourceIcon51ZMT="http://epg.51zmt.top:8000"
 sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
-homeLanAddress="http://192.168.100.1:8686"
+homeLanAddress="http://192.168.100.22:4022"
 
 groupCCTV=["CCTV", "CETV", "CGTN"]
 groupWS=[ "卫视"]
@@ -42,28 +42,28 @@ def checkChannelExist(listIptv, channel):
             return True
     return False
 
-def appendOnlineIptvFromTvbox(listIptv):
-    onlineIptv = requests.get(sourceTvboxIptv).content
-    lines = onlineIptv.splitlines()
+# def appendOnlineIptvFromTvbox(listIptv):
+#     onlineIptv = requests.get(sourceTvboxIptv).content
+#     lines = onlineIptv.splitlines()
 
-    for line in lines:
-        line=line.decode('utf-8')
-        groupMatch = re.search(r'(.+),#genre#', line)
-        if groupMatch:
-            g = groupMatch.group(1)
-            if g not in listIptv:
-                listIptv[g] = []
-            continue
-        if g == "YouTube":
-            continue
+#     for line in lines:
+#         line=line.decode('utf-8')
+#         groupMatch = re.search(r'(.+),#genre#', line)
+#         if groupMatch:
+#             g = groupMatch.group(1)
+#             if g not in listIptv:
+#                 listIptv[g] = []
+#             continue
+#         if g == "YouTube":
+#             continue
 
-        v=line.split(',')
+#         v=line.split(',')
 
-        if checkChannelExist(listIptv, v[0]):
-            listIptv[g].append({"id": getID(), "name": v[0], "address": v[1], "dup": True})
-            continue
-        else:
-            listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
+#         if checkChannelExist(listIptv, v[0]):
+#             listIptv[g].append({"id": getID(), "name": v[0], "address": v[1], "dup": True})
+#             continue
+#         else:
+#             listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
 
 
 def isIn(items, v):
@@ -191,7 +191,7 @@ for tr in soup.find_all(name='tr'):
     m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
 
 
-appendOnlineIptvFromTvbox(m)
+# appendOnlineIptvFromTvbox(m)
 
 generateHome()
 
