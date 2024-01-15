@@ -10,11 +10,6 @@ from urllib.parse import urlparse, urljoin
 import strict_rfc3339
 import re
 
-
-#with open('./sctvmulticast.html') as f:
-#   res=f.read()
-
-# sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
 sourceIcon51ZMT="http://epg.51zmt.top:8000"
 sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
 homeLanAddress="http://192.168.100.22:4022"
@@ -42,30 +37,6 @@ def checkChannelExist(listIptv, channel):
         if isIn(k, channel):
             return True
     return False
-
-# def appendOnlineIptvFromTvbox(listIptv):
-#     onlineIptv = requests.get(sourceTvboxIptv).content
-#     lines = onlineIptv.splitlines()
-
-#     for line in lines:
-#         line=line.decode('utf-8')
-#         groupMatch = re.search(r'(.+),#genre#', line)
-#         if groupMatch:
-#             g = groupMatch.group(1)
-#             if g not in listIptv:
-#                 listIptv[g] = []
-#             continue
-#         if g == "YouTube":
-#             continue
-
-#         v=line.split(',')
-
-#         if checkChannelExist(listIptv, v[0]):
-#             listIptv[g].append({"id": getID(), "name": v[0], "address": v[1], "dup": True})
-#             continue
-#         else:
-#             listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
-
 
 def isIn(items, v):
     for item in items:
@@ -172,6 +143,17 @@ def convertM3U8(file, new_file):
         with open(new_file, 'wb') as file:
             file.write(file_response.content)
         print('文件成功下载！')
+        file_path = 'your_file_path.m3u'  # 替换为你的文件路径
+        # 打开文件并读取内容
+        with open(new_file, 'r') as file:
+            lines = file.readlines()
+        # 替换第一行内容
+        if lines:
+            lines[0] = '#EXTM3U name="成都电信IPTV - 2024-01-15T03:08:35Z" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
+        # 将修改后的内容写回文件
+        with open(file_path, 'w') as file:
+            file.writelines(lines)
+        print('第一行内容已成功替换！')
     else:
         print('在页面上找不到下载链接。')
 
