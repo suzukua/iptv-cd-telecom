@@ -143,7 +143,6 @@ def convertM3U8(file, new_file):
         with open(new_file, 'wb') as file:
             file.write(file_response.content)
         print('文件成功下载！')
-        file_path = 'your_file_path.m3u'  # 替换为你的文件路径
         # 打开文件并读取内容
         with open(new_file, 'r') as file:
             lines = file.readlines()
@@ -151,7 +150,7 @@ def convertM3U8(file, new_file):
         if lines:
             lines[0] = '#EXTM3U name="成都电信IPTV - 2024-01-15T03:08:35Z" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
         # 将修改后的内容写回文件
-        with open(file_path, 'w') as file:
+        with open(new_file, 'w') as file:
             file.writelines(lines)
         print('第一行内容已成功替换！')
     else:
@@ -210,13 +209,4 @@ for tr in soup.find_all(name='tr'):
 
     m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
 
-
-# appendOnlineIptvFromTvbox(m)
-
 generateHome()
-
-
-
-
-#res = requests.get("https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u")
-
