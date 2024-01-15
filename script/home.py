@@ -138,6 +138,26 @@ def generateM3U8(file):
 
     file.close()
     print("Build m3u8 success.")
+def generateM3U8(file):
+    url = 'http://epg.51zmt.top:8000/api/upload/'
+    headers = {
+        'Accept': '*/*',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+        'Origin': 'http://epg.51zmt.top:8000',
+        'Pragma': 'no-cache',
+        'Referer': 'http://epg.51zmt.top:8000/',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    }
+    files = {
+        'myfile': ('iptv.m3u8', open(file, 'rb'), 'audio/mpegurl')
+    }
+    
+    response = requests.post(url, headers=headers, files=files, verify=False)
+    
+    print(response.text)
+
 
 def generateTXT(file):
     file=open(file, "w")
@@ -158,7 +178,8 @@ def generateTXT(file):
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
-    generateTXT("./home/iptv.txt")
+    convertM3U8("./home/iptv.m3u8")
+    # generateTXT("./home/iptv.txt")
 
 #exit(0)
 
