@@ -6,6 +6,7 @@ import m3u8
 import sys
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from urllib.parse import urlparse, urljoin
 import strict_rfc3339
 import re
 
