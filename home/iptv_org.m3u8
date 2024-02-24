@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-02-21T10:10:39Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-02-24T10:09:28Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.100.22:4022/udp/239.93.0.58:5140
@@ -114,9 +114,9 @@ http://192.168.100.22:4022/udp/239.93.1.135:5140
 http://192.168.100.22:4022/udp/239.93.0.136:5140
 #EXTINF:-1 tvg-logo="" tvg-id="126" tvg-name="足球专区" group-title="其他",足球专区
 http://192.168.100.22:4022/udp/239.93.0.197:9040
-#EXTINF:-1 tvg-logo="" tvg-id="127" tvg-name="高网专区" group-title="其他",高网专区
+#EXTINF:-1 tvg-logo="" tvg-id="127" tvg-name="红色影院专区" group-title="其他",红色影院专区
 http://192.168.100.22:4022/udp/239.93.0.202:9068
-#EXTINF:-1 tvg-logo="" tvg-id="128" tvg-name="台球专区" group-title="其他",台球专区
+#EXTINF:-1 tvg-logo="" tvg-id="128" tvg-name="经典剧场专区" group-title="其他",经典剧场专区
 http://192.168.100.22:4022/udp/239.93.0.203:9072
 #EXTINF:-1 tvg-logo="" tvg-id="129" tvg-name="纪实人文" group-title="其他",纪实人文
 http://192.168.100.22:4022/udp/239.93.1.154:5140
