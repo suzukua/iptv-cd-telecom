@@ -9,6 +9,11 @@ from urllib.parse import urljoin
 from urllib.parse import urlparse, urljoin
 import strict_rfc3339
 import re
+from datetime import datetime
+import pytz
+
+# 获取中国时区
+china_tz = pytz.timezone('Asia/Shanghai')
 
 sourceIcon51ZMT="http://epg.51zmt.top:8000"
 sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
@@ -148,7 +153,9 @@ def convertM3U8(file, new_file):
             lines = file.readlines()
         # 替换第一行内容
         if lines:
-            name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
+            # 获取当前时间
+            now = datetime.now(china_tz)
+            name = '成都电信IPTV - ' + now.strftime("%Y-%m-%d %H:%M:%S")
             title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n'
             lines[0] = title
             # lines[0] = '#EXTM3U name="成都电信IPTV - 2024-01-15T03:08:35Z" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
