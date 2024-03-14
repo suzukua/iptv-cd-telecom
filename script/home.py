@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import pytz
 import requests
 import m3u8
 import sys
@@ -10,7 +11,7 @@ from urllib.parse import urlparse, urljoin
 import strict_rfc3339
 import re
 from datetime import datetime
-import pytz
+
 
 # 获取中国时区
 china_tz = pytz.timezone('Asia/Shanghai')
