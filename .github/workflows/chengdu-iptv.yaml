@@ -30,6 +30,7 @@ jobs:
           pip install lxml
           pip install html5lib
           pip install strict-rfc3339
+          pip install pytz
 
       - name: Build home
         run: |
