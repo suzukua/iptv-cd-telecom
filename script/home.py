@@ -148,7 +148,10 @@ def convertM3U8(file, new_file):
             lines = file.readlines()
         # 替换第一行内容
         if lines:
-            lines[0] = '#EXTM3U name="成都电信IPTV - 2024-01-15T03:08:35Z" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
+            name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
+            title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n'
+            lines[0] = title
+            # lines[0] = '#EXTM3U name="成都电信IPTV - 2024-01-15T03:08:35Z" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
         # 将修改后的内容写回文件
         with open(new_file, 'w') as file:
             file.writelines(lines)
