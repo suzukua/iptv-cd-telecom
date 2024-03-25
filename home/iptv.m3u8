@@ -1,8 +1,8 @@
 #EXTM3U name="成都电信IPTV - 2024-03-23 18:09:43" url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="CCTV",CCTV1
-http://192.168.100.22:4022/udp/239.93.0.58:5140
+http://192.168.100.2:7088/udp/239.93.0.58:5140
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="CCTV",CCTV2
-http://192.168.100.22:4022/udp/239.93.1.23:6000
+http://192.168.100.2:7088/udp/239.93.1.23:6000
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="CCTV",CCTV3
 http://192.168.100.22:4022/udp/239.93.0.109:5140
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="CCTV",CCTV4
