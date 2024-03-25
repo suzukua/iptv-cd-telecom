@@ -18,7 +18,9 @@ china_tz = pytz.timezone('Asia/Shanghai')
 
 sourceIcon51ZMT="http://epg.51zmt.top:8000"
 sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
-homeLanAddress="http://192.168.100.22:4022"
+# homeLanAddress="http://192.168.100.22:4022"
+homeLanAddress="http://192.168.100.2:7088"
+
 
 groupCCTV=["CCTV", "CETV", "CGTN"]
 groupWS=[ "卫视"]
