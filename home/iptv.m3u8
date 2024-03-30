@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-03-27 18:10:15" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-03-30 18:10:13" url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="CCTV",CCTV2
@@ -77,8 +77,6 @@ http://192.168.100.2:7088/udp/239.93.42.87:5140
 http://192.168.100.2:7088/udp/239.93.42.90:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",热播剧场专区
 http://192.168.100.2:7088/udp/239.93.0.56:9020
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",港剧风云专区
-http://192.168.100.2:7088/udp/239.93.0.143:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",谍战剧场专区
 http://192.168.100.2:7088/udp/239.93.42.91:5140
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="其他",卡酷动画
@@ -105,8 +103,6 @@ http://192.168.100.2:7088/udp/239.93.0.190:9012
 http://192.168.100.2:7088/udp/239.93.0.106:5140
 #EXTINF:-1 tvg-id="6623" tvg-name="财富天下" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" group-title="其他",财富天下
 http://192.168.100.2:7088/udp/239.93.0.116:9136
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",股评汇专区
-http://192.168.100.2:7088/udp/239.93.0.141:5140
 #EXTINF:-1 tvg-id="85" tvg-name="电竞天堂" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/dianjingtiantang.png" group-title="其他",电竞天堂专区
 http://192.168.100.2:7088/udp/239.93.1.135:5140
 #EXTINF:-1 tvg-id="1983" tvg-name="游戏风云" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" group-title="其他",游戏风云

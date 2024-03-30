@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-03-27T10:10:12Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-03-30T10:10:10Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
@@ -44,9 +44,9 @@ http://192.168.100.2:7088/udp/239.93.1.111:5140
 http://192.168.100.2:7088/udp/239.93.0.113:5140
 #EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="CETV4" group-title="CCTV",CETV4
 http://192.168.100.2:7088/udp/239.93.0.50:5140
-#EXTINF:-1 tvg-logo="" tvg-id="139" tvg-name="CGTN西班牙语" group-title="CCTV",CGTN西班牙语
+#EXTINF:-1 tvg-logo="" tvg-id="137" tvg-name="CGTN西班牙语" group-title="CCTV",CGTN西班牙语
 http://192.168.100.2:7088/udp/239.93.42.49:5140
-#EXTINF:-1 tvg-logo="" tvg-id="140" tvg-name="CGTN法语" group-title="CCTV",CGTN法语
+#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN法语" group-title="CCTV",CGTN法语
 http://192.168.100.2:7088/udp/239.93.42.50:5140
 #EXTINF:-1 tvg-logo="" tvg-id="21" tvg-name="精彩导视" group-title="其他",精彩导视
 http://192.168.100.2:7088/udp/239.93.1.39:5140
@@ -78,173 +78,169 @@ http://192.168.100.2:7088/udp/239.93.42.87:5140
 http://192.168.100.2:7088/udp/239.93.42.90:5140
 #EXTINF:-1 tvg-logo="" tvg-id="104" tvg-name="热播剧场专区" group-title="其他",热播剧场专区
 http://192.168.100.2:7088/udp/239.93.0.56:9020
-#EXTINF:-1 tvg-logo="" tvg-id="106" tvg-name="港剧风云专区" group-title="其他",港剧风云专区
-http://192.168.100.2:7088/udp/239.93.0.143:5140
-#EXTINF:-1 tvg-logo="" tvg-id="107" tvg-name="谍战剧场专区" group-title="其他",谍战剧场专区
+#EXTINF:-1 tvg-logo="" tvg-id="106" tvg-name="谍战剧场专区" group-title="其他",谍战剧场专区
 http://192.168.100.2:7088/udp/239.93.42.91:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" tvg-id="108" tvg-name="卡酷动画" group-title="其他",卡酷动画
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" tvg-id="107" tvg-name="卡酷动画" group-title="其他",卡酷动画
 http://192.168.100.2:7088/udp/239.93.42.1:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" tvg-id="109" tvg-name="金鹰卡通" group-title="其他",金鹰卡通
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" tvg-id="108" tvg-name="金鹰卡通" group-title="其他",金鹰卡通
 http://192.168.100.2:7088/udp/239.93.0.5:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youman.png" tvg-id="110" tvg-name="优漫卡通" group-title="其他",优漫卡通
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youman.png" tvg-id="109" tvg-name="优漫卡通" group-title="其他",优漫卡通
 http://192.168.100.2:7088/udp/239.93.0.251:5140
-#EXTINF:-1 tvg-logo="" tvg-id="111" tvg-name="宝宝动画专区" group-title="其他",宝宝动画专区
+#EXTINF:-1 tvg-logo="" tvg-id="110" tvg-name="宝宝动画专区" group-title="其他",宝宝动画专区
 http://192.168.100.2:7088/udp/239.93.42.89:5140
-#EXTINF:-1 tvg-logo="" tvg-id="112" tvg-name="少儿动画专区" group-title="其他",少儿动画专区
+#EXTINF:-1 tvg-logo="" tvg-id="111" tvg-name="少儿动画专区" group-title="其他",少儿动画专区
 http://192.168.100.2:7088/udp/239.93.0.193:9000
-#EXTINF:-1 tvg-logo="" tvg-id="113" tvg-name="青春动漫专区" group-title="其他",青春动漫专区
+#EXTINF:-1 tvg-logo="" tvg-id="112" tvg-name="青春动漫专区" group-title="其他",青春动漫专区
 http://192.168.100.2:7088/udp/239.93.0.146:5140
-#EXTINF:-1 tvg-logo="" tvg-id="115" tvg-name="音乐现场专区" group-title="其他",音乐现场专区
+#EXTINF:-1 tvg-logo="" tvg-id="114" tvg-name="音乐现场专区" group-title="其他",音乐现场专区
 http://192.168.100.2:7088/udp/239.93.0.198:9044
-#EXTINF:-1 tvg-logo="" tvg-id="116" tvg-name="戏曲精选专区" group-title="其他",戏曲精选专区
+#EXTINF:-1 tvg-logo="" tvg-id="115" tvg-name="戏曲精选专区" group-title="其他",戏曲精选专区
 http://192.168.100.2:7088/udp/239.93.0.144:5140
-#EXTINF:-1 tvg-logo="" tvg-id="117" tvg-name="戏曲专区" group-title="其他",戏曲专区
+#EXTINF:-1 tvg-logo="" tvg-id="116" tvg-name="戏曲专区" group-title="其他",戏曲专区
 http://192.168.100.2:7088/udp/239.93.0.217:9208
-#EXTINF:-1 tvg-logo="" tvg-id="118" tvg-name="魅力时尚专区" group-title="其他",魅力时尚专区
+#EXTINF:-1 tvg-logo="" tvg-id="117" tvg-name="魅力时尚专区" group-title="其他",魅力时尚专区
 http://192.168.100.2:7088/udp/239.93.0.190:9012
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="119" tvg-name="生活时尚" group-title="其他",生活时尚
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="118" tvg-name="生活时尚" group-title="其他",生活时尚
 http://192.168.100.2:7088/udp/239.93.0.106:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" tvg-id="121" tvg-name="财富天下" group-title="其他",财富天下
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" tvg-id="120" tvg-name="财富天下" group-title="其他",财富天下
 http://192.168.100.2:7088/udp/239.93.0.116:9136
-#EXTINF:-1 tvg-logo="" tvg-id="122" tvg-name="股评汇专区" group-title="其他",股评汇专区
-http://192.168.100.2:7088/udp/239.93.0.141:5140
-#EXTINF:-1 tvg-logo="" tvg-id="124" tvg-name="电竞天堂专区" group-title="其他",电竞天堂专区
+#EXTINF:-1 tvg-logo="" tvg-id="122" tvg-name="电竞天堂专区" group-title="其他",电竞天堂专区
 http://192.168.100.2:7088/udp/239.93.1.135:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" tvg-id="125" tvg-name="游戏风云" group-title="其他",游戏风云
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" tvg-id="123" tvg-name="游戏风云" group-title="其他",游戏风云
 http://192.168.100.2:7088/udp/239.93.0.136:5140
-#EXTINF:-1 tvg-logo="" tvg-id="126" tvg-name="足球专区" group-title="其他",足球专区
+#EXTINF:-1 tvg-logo="" tvg-id="124" tvg-name="足球专区" group-title="其他",足球专区
 http://192.168.100.2:7088/udp/239.93.0.197:9040
-#EXTINF:-1 tvg-logo="" tvg-id="127" tvg-name="红色影院专区" group-title="其他",红色影院专区
+#EXTINF:-1 tvg-logo="" tvg-id="125" tvg-name="红色影院专区" group-title="其他",红色影院专区
 http://192.168.100.2:7088/udp/239.93.0.202:9068
-#EXTINF:-1 tvg-logo="" tvg-id="128" tvg-name="经典剧场专区" group-title="其他",经典剧场专区
+#EXTINF:-1 tvg-logo="" tvg-id="126" tvg-name="经典剧场专区" group-title="其他",经典剧场专区
 http://192.168.100.2:7088/udp/239.93.0.203:9072
-#EXTINF:-1 tvg-logo="" tvg-id="129" tvg-name="纪实人文" group-title="其他",纪实人文
+#EXTINF:-1 tvg-logo="" tvg-id="127" tvg-name="纪实人文" group-title="其他",纪实人文
 http://192.168.100.2:7088/udp/239.93.1.154:5140
-#EXTINF:-1 tvg-logo="" tvg-id="130" tvg-name="墨宝专区" group-title="其他",墨宝专区
+#EXTINF:-1 tvg-logo="" tvg-id="128" tvg-name="墨宝专区" group-title="其他",墨宝专区
 http://192.168.100.2:7088/udp/239.93.0.215:9132
-#EXTINF:-1 tvg-logo="" tvg-id="131" tvg-name="军事专区" group-title="其他",军事专区
+#EXTINF:-1 tvg-logo="" tvg-id="129" tvg-name="军事专区" group-title="其他",军事专区
 http://192.168.100.2:7088/udp/239.93.0.204:9076
-#EXTINF:-1 tvg-logo="" tvg-id="132" tvg-name="解密专区" group-title="其他",解密专区
+#EXTINF:-1 tvg-logo="" tvg-id="130" tvg-name="解密专区" group-title="其他",解密专区
 http://192.168.100.2:7088/udp/239.93.0.199:9048
-#EXTINF:-1 tvg-logo="" tvg-id="133" tvg-name="地理专区" group-title="其他",地理专区
+#EXTINF:-1 tvg-logo="" tvg-id="131" tvg-name="地理专区" group-title="其他",地理专区
 http://192.168.100.2:7088/udp/239.93.0.200:9052
-#EXTINF:-1 tvg-logo="" tvg-id="134" tvg-name="导视专区" group-title="其他",导视专区
+#EXTINF:-1 tvg-logo="" tvg-id="132" tvg-name="导视专区" group-title="其他",导视专区
 http://192.168.100.2:7088/udp/239.93.0.129:5140
-#EXTINF:-1 tvg-logo="" tvg-id="135" tvg-name="收视指南专区" group-title="其他",收视指南专区
+#EXTINF:-1 tvg-logo="" tvg-id="133" tvg-name="收视指南专区" group-title="其他",收视指南专区
 http://192.168.100.2:7088/udp/239.93.0.195:8012
-#EXTINF:-1 tvg-logo="" tvg-id="136" tvg-name="蓉城先锋专区" group-title="其他",蓉城先锋专区
+#EXTINF:-1 tvg-logo="" tvg-id="134" tvg-name="蓉城先锋专区" group-title="其他",蓉城先锋专区
 http://192.168.100.2:7088/udp/239.93.0.91:2101
-#EXTINF:-1 tvg-logo="" tvg-id="137" tvg-name="星空精选专区" group-title="其他",星空精选专区
+#EXTINF:-1 tvg-logo="" tvg-id="135" tvg-name="星空精选专区" group-title="其他",星空精选专区
 http://192.168.100.2:7088/udp/239.93.1.171:5140
-#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="东方财经" group-title="其他",东方财经
+#EXTINF:-1 tvg-logo="" tvg-id="136" tvg-name="东方财经" group-title="其他",东方财经
 http://192.168.100.2:7088/udp/239.93.1.165:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHTV.jpg" tvg-id="141" tvg-name="百姓健康" group-title="其他",百姓健康
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHTV.jpg" tvg-id="139" tvg-name="百姓健康" group-title="其他",百姓健康
 http://192.168.100.2:7088/udp/239.93.42.35:5140
-#EXTINF:-1 tvg-logo="" tvg-id="147" tvg-name="都市剧场" group-title="其他",都市剧场
+#EXTINF:-1 tvg-logo="" tvg-id="145" tvg-name="都市剧场" group-title="其他",都市剧场
 http://192.168.100.2:7088/udp/239.93.42.30:5140
-#EXTINF:-1 tvg-logo="" tvg-id="152" tvg-name="少儿天地专区" group-title="其他",少儿天地专区
+#EXTINF:-1 tvg-logo="" tvg-id="150" tvg-name="少儿天地专区" group-title="其他",少儿天地专区
 http://192.168.100.2:7088/udp/239.93.42.34:5140
-#EXTINF:-1 tvg-logo="" tvg-id="156" tvg-name="求索频道" group-title="其他",求索频道
+#EXTINF:-1 tvg-logo="" tvg-id="154" tvg-name="求索频道" group-title="其他",求索频道
 http://192.168.100.2:7088/udp/239.93.42.24:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="160" tvg-name="生活时尚" group-title="其他",生活时尚
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="158" tvg-name="生活时尚" group-title="其他",生活时尚
 http://192.168.100.2:7088/udp/239.93.42.29:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC6.jpg" tvg-id="161" tvg-name="环球旅游" group-title="其他",环球旅游
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC6.jpg" tvg-id="159" tvg-name="环球旅游" group-title="其他",环球旅游
 http://192.168.100.2:7088/udp/239.93.42.31:5140
-#EXTINF:-1 tvg-logo="" tvg-id="162" tvg-name="来钓鱼吧专区" group-title="其他",来钓鱼吧专区
+#EXTINF:-1 tvg-logo="" tvg-id="160" tvg-name="来钓鱼吧专区" group-title="其他",来钓鱼吧专区
 http://192.168.100.2:7088/udp/239.93.42.8:5140
-#EXTINF:-1 tvg-logo="" tvg-id="163" tvg-name="麻辣体育专区" group-title="其他",麻辣体育专区
+#EXTINF:-1 tvg-logo="" tvg-id="161" tvg-name="麻辣体育专区" group-title="其他",麻辣体育专区
 http://192.168.100.2:7088/udp/239.93.42.2:5140
-#EXTINF:-1 tvg-logo="" tvg-id="164" tvg-name="绚影4K专区" group-title="其他",绚影4K专区
+#EXTINF:-1 tvg-logo="" tvg-id="162" tvg-name="绚影4K专区" group-title="其他",绚影4K专区
 http://192.168.100.2:7088/udp/239.93.42.33:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/XFBY.png" tvg-id="165" tvg-name="先锋乒羽" group-title="其他",先锋乒羽
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/XFBY.png" tvg-id="163" tvg-name="先锋乒羽" group-title="其他",先锋乒羽
 http://192.168.100.2:7088/udp/239.93.42.56:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/TIANYUANWEIQI.jpg" tvg-id="166" tvg-name="天元围棋" group-title="其他",天元围棋
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/TIANYUANWEIQI.jpg" tvg-id="164" tvg-name="天元围棋" group-title="其他",天元围棋
 http://192.168.100.2:7088/udp/239.93.42.55:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" tvg-id="167" tvg-name="快乐垂钓" group-title="其他",快乐垂钓
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" tvg-id="165" tvg-name="快乐垂钓" group-title="其他",快乐垂钓
 http://192.168.100.2:7088/udp/239.93.1.151:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" tvg-id="168" tvg-name="茶频道" group-title="其他",茶频道
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" tvg-id="166" tvg-name="茶频道" group-title="其他",茶频道
 http://192.168.100.2:7088/udp/239.93.0.114:5140
-#EXTINF:-1 tvg-logo="" tvg-id="169" tvg-name="乐龄学堂专区" group-title="其他",乐龄学堂专区
+#EXTINF:-1 tvg-logo="" tvg-id="167" tvg-name="乐龄学堂专区" group-title="其他",乐龄学堂专区
 http://192.168.100.2:7088/udp/239.93.1.179:5140
-#EXTINF:-1 tvg-logo="" tvg-id="170" tvg-name="亲子趣学4k专区" group-title="其他",亲子趣学4k专区
+#EXTINF:-1 tvg-logo="" tvg-id="168" tvg-name="亲子趣学4k专区" group-title="其他",亲子趣学4k专区
 http://192.168.100.2:7088/udp/239.93.1.191:5140
-#EXTINF:-1 tvg-logo="" tvg-id="171" tvg-name="中录动漫4K专区" group-title="其他",中录动漫4K专区
+#EXTINF:-1 tvg-logo="" tvg-id="169" tvg-name="中录动漫4K专区" group-title="其他",中录动漫4K专区
 http://192.168.100.2:7088/udp/239.93.1.188:5140
-#EXTINF:-1 tvg-logo="" tvg-id="173" tvg-name="4K乐享超清专区" group-title="其他",4K乐享超清专区
+#EXTINF:-1 tvg-logo="" tvg-id="171" tvg-name="4K乐享超清专区" group-title="其他",4K乐享超清专区
 http://192.168.100.2:7088/udp/239.93.0.43:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE37.jpg" tvg-id="174" tvg-name="书画频道" group-title="其他",书画频道
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE37.jpg" tvg-id="172" tvg-name="书画频道" group-title="其他",书画频道
 http://192.168.100.2:7088/udp/239.93.42.67:5140
-#EXTINF:-1 tvg-logo="" tvg-id="175" tvg-name="乐游" group-title="其他",乐游
+#EXTINF:-1 tvg-logo="" tvg-id="173" tvg-name="乐游" group-title="其他",乐游
 http://192.168.100.2:7088/udp/239.93.42.94:5140
-#EXTINF:-1 tvg-logo="" tvg-id="176" tvg-name="金色学堂" group-title="其他",金色学堂
+#EXTINF:-1 tvg-logo="" tvg-id="174" tvg-name="金色学堂" group-title="其他",金色学堂
 http://192.168.100.2:7088/udp/239.93.42.95:5140
-#EXTINF:-1 tvg-logo="" tvg-id="177" tvg-name="法治天地" group-title="其他",法治天地
+#EXTINF:-1 tvg-logo="" tvg-id="175" tvg-name="法治天地" group-title="其他",法治天地
 http://192.168.100.2:7088/udp/239.93.42.96:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunyinyue.png" tvg-id="178" tvg-name="风云音乐" group-title="其他",风云音乐
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunyinyue.png" tvg-id="176" tvg-name="风云音乐" group-title="其他",风云音乐
 http://192.168.100.2:7088/udp/239.93.0.224:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVnvxing.png" tvg-id="179" tvg-name="女性时尚" group-title="其他",女性时尚
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVnvxing.png" tvg-id="177" tvg-name="女性时尚" group-title="其他",女性时尚
 http://192.168.100.2:7088/udp/239.93.42.62:5140
-#EXTINF:-1 tvg-logo="" tvg-id="180" tvg-name="中国天气" group-title="其他",中国天气
+#EXTINF:-1 tvg-logo="" tvg-id="178" tvg-name="中国天气" group-title="其他",中国天气
 http://192.168.100.2:7088/udp/239.93.42.66:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" tvg-id="181" tvg-name="世界地理" group-title="其他",世界地理
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" tvg-id="179" tvg-name="世界地理" group-title="其他",世界地理
 http://192.168.100.2:7088/udp/239.93.1.157:5140
-#EXTINF:-1 tvg-logo="" tvg-id="182" tvg-name="央视文化精品" group-title="其他",央视文化精品
+#EXTINF:-1 tvg-logo="" tvg-id="180" tvg-name="央视文化精品" group-title="其他",央视文化精品
 http://192.168.100.2:7088/udp/239.93.42.47:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC4.jpg" tvg-id="183" tvg-name="四海钓鱼" group-title="其他",四海钓鱼
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC4.jpg" tvg-id="181" tvg-name="四海钓鱼" group-title="其他",四海钓鱼
 http://192.168.100.2:7088/udp/239.93.0.55:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVtaiqiu.png" tvg-id="184" tvg-name="央视台球" group-title="其他",央视台球
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVtaiqiu.png" tvg-id="182" tvg-name="央视台球" group-title="其他",央视台球
 http://192.168.100.2:7088/udp/239.93.0.218:5140
-#EXTINF:-1 tvg-logo="" tvg-id="185" tvg-name="高尔夫·网球" group-title="其他",高尔夫·网球
+#EXTINF:-1 tvg-logo="" tvg-id="183" tvg-name="高尔夫·网球" group-title="其他",高尔夫·网球
 http://192.168.100.2:7088/udp/239.93.1.54:5140
-#EXTINF:-1 tvg-logo="" tvg-id="186" tvg-name="魅力足球" group-title="其他",魅力足球
+#EXTINF:-1 tvg-logo="" tvg-id="184" tvg-name="魅力足球" group-title="其他",魅力足球
 http://192.168.100.2:7088/udp/239.93.42.97:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunzuqiu.png" tvg-id="187" tvg-name="风云足球" group-title="其他",风云足球
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunzuqiu.png" tvg-id="185" tvg-name="风云足球" group-title="其他",风云足球
 http://192.168.100.2:7088/udp/239.93.0.235:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE8.jpg" tvg-id="188" tvg-name="兵器科技" group-title="其他",兵器科技
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE8.jpg" tvg-id="186" tvg-name="兵器科技" group-title="其他",兵器科技
 http://192.168.100.2:7088/udp/239.93.1.235:5140
-#EXTINF:-1 tvg-logo="" tvg-id="189" tvg-name="动漫秀场" group-title="其他",动漫秀场
+#EXTINF:-1 tvg-logo="" tvg-id="187" tvg-name="动漫秀场" group-title="其他",动漫秀场
 http://192.168.100.2:7088/udp/239.93.42.93:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE33.jpg" tvg-id="190" tvg-name="早期教育" group-title="其他",早期教育
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE33.jpg" tvg-id="188" tvg-name="早期教育" group-title="其他",早期教育
 http://192.168.100.2:7088/udp/239.93.0.117:5140
-#EXTINF:-1 tvg-logo="" tvg-id="191" tvg-name="精彩影视" group-title="其他",精彩影视
+#EXTINF:-1 tvg-logo="" tvg-id="189" tvg-name="精彩影视" group-title="其他",精彩影视
 http://192.168.100.2:7088/udp/239.93.42.92:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE7.jpg" tvg-id="192" tvg-name="怀旧剧场" group-title="其他",怀旧剧场
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE7.jpg" tvg-id="190" tvg-name="怀旧剧场" group-title="其他",怀旧剧场
 http://192.168.100.2:7088/udp/239.93.1.198:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" tvg-id="193" tvg-name="第一剧场" group-title="其他",第一剧场
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" tvg-id="191" tvg-name="第一剧场" group-title="其他",第一剧场
 http://192.168.100.2:7088/udp/239.93.1.197:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTBfengyun.png" tvg-id="194" tvg-name="风云剧场" group-title="其他",风云剧场
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTBfengyun.png" tvg-id="192" tvg-name="风云剧场" group-title="其他",风云剧场
 http://192.168.100.2:7088/udp/239.93.1.156:5140
-#EXTINF:-1 tvg-logo="" tvg-id="195" tvg-name="CHC家庭影院" group-title="其他",CHC家庭影院
+#EXTINF:-1 tvg-logo="" tvg-id="193" tvg-name="CHC家庭影院" group-title="其他",CHC家庭影院
 http://192.168.100.2:7088/udp/239.93.42.6:5140
-#EXTINF:-1 tvg-logo="" tvg-id="196" tvg-name="CHC电影" group-title="其他",CHC电影
+#EXTINF:-1 tvg-logo="" tvg-id="194" tvg-name="CHC电影" group-title="其他",CHC电影
 http://192.168.100.2:7088/udp/239.93.42.5:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" tvg-id="197" tvg-name="CHC动作电影" group-title="其他",CHC动作电影
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" tvg-id="195" tvg-name="CHC动作电影" group-title="其他",CHC动作电影
 http://192.168.100.2:7088/udp/239.93.42.7:5140
-#EXTINF:-1 tvg-logo="" tvg-id="198" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
+#EXTINF:-1 tvg-logo="" tvg-id="196" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
 http://192.168.100.2:7088/udp/239.93.0.145:5140
-#EXTINF:-1 tvg-logo="" tvg-id="200" tvg-name="中国体育1" group-title="其他",中国体育1
+#EXTINF:-1 tvg-logo="" tvg-id="198" tvg-name="中国体育1" group-title="其他",中国体育1
 http://192.168.100.2:7088/udp/239.93.42.25:5140
-#EXTINF:-1 tvg-logo="" tvg-id="201" tvg-name="中国体育2" group-title="其他",中国体育2
+#EXTINF:-1 tvg-logo="" tvg-id="199" tvg-name="中国体育2" group-title="其他",中国体育2
 http://192.168.100.2:7088/udp/239.93.42.26:5140
-#EXTINF:-1 tvg-logo="" tvg-id="202" tvg-name="中国体育3" group-title="其他",中国体育3
+#EXTINF:-1 tvg-logo="" tvg-id="200" tvg-name="中国体育3" group-title="其他",中国体育3
 http://192.168.100.2:7088/udp/239.93.42.27:5140
-#EXTINF:-1 tvg-logo="" tvg-id="203" tvg-name="精彩推荐专区" group-title="其他",精彩推荐专区
+#EXTINF:-1 tvg-logo="" tvg-id="201" tvg-name="精彩推荐专区" group-title="其他",精彩推荐专区
 http://192.168.100.2:7088/udp/239.93.1.5:5140
-#EXTINF:-1 tvg-logo="" tvg-id="212" tvg-name="红原日干乔" group-title="其他",红原日干乔
+#EXTINF:-1 tvg-logo="" tvg-id="210" tvg-name="红原日干乔" group-title="其他",红原日干乔
 http://192.168.100.2:7088/udp/239.93.0.178:5140
-#EXTINF:-1 tvg-logo="" tvg-id="213" tvg-name="红原月亮湾" group-title="其他",红原月亮湾
+#EXTINF:-1 tvg-logo="" tvg-id="211" tvg-name="红原月亮湾" group-title="其他",红原月亮湾
 http://192.168.100.2:7088/udp/239.93.0.209:5140
-#EXTINF:-1 tvg-logo="" tvg-id="214" tvg-name="电信导视3" group-title="其他",电信导视3
+#EXTINF:-1 tvg-logo="" tvg-id="212" tvg-name="电信导视3" group-title="其他",电信导视3
 http://192.168.100.2:7088/udp/239.93.0.110:5140
-#EXTINF:-1 tvg-logo="" tvg-id="215" tvg-name="雅克音乐节直播" group-title="其他",雅克音乐节直播
+#EXTINF:-1 tvg-logo="" tvg-id="213" tvg-name="雅克音乐节直播" group-title="其他",雅克音乐节直播
 http://192.168.100.2:7088/udp/239.93.42.69:5140
-#EXTINF:-1 tvg-logo="" tvg-id="216" tvg-name="雅克音乐节宣传" group-title="其他",雅克音乐节宣传
+#EXTINF:-1 tvg-logo="" tvg-id="214" tvg-name="雅克音乐节宣传" group-title="其他",雅克音乐节宣传
 http://192.168.100.2:7088/udp/239.93.42.68:5140
-#EXTINF:-1 tvg-logo="" tvg-id="217" tvg-name="云演艺宣传" group-title="其他",云演艺宣传
+#EXTINF:-1 tvg-logo="" tvg-id="215" tvg-name="云演艺宣传" group-title="其他",云演艺宣传
 http://192.168.100.2:7088/udp/239.93.42.60:5140
-#EXTINF:-1 tvg-logo="" tvg-id="218" tvg-name="创新及人才文化节" group-title="其他",创新及人才文化节
+#EXTINF:-1 tvg-logo="" tvg-id="216" tvg-name="创新及人才文化节" group-title="其他",创新及人才文化节
 http://192.168.100.2:7088/udp/239.93.42.59:5140
-#EXTINF:-1 tvg-logo="" tvg-id="219" tvg-name="华西证券" group-title="其他",华西证券
+#EXTINF:-1 tvg-logo="" tvg-id="217" tvg-name="华西证券" group-title="其他",华西证券
 http://192.168.100.2:7088/udp/239.93.0.69:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" tvg-id="22" tvg-name="四川卫视" group-title="卫视",四川卫视
 http://192.168.100.2:7088/udp/239.93.0.20:1235
@@ -368,7 +364,7 @@ http://192.168.100.2:7088/udp/239.93.0.126:5140
 http://192.168.100.2:7088/udp/239.93.0.211:9148
 #EXTINF:-1 tvg-logo="" tvg-id="87" tvg-name="金熊猫卡通专区" group-title="四川",金熊猫卡通专区
 http://192.168.100.2:7088/udp/239.93.1.172:5140
-#EXTINF:-1 tvg-logo="" tvg-id="172" tvg-name="熊猫24小时专区" group-title="四川",熊猫24小时专区
+#EXTINF:-1 tvg-logo="" tvg-id="170" tvg-name="熊猫24小时专区" group-title="四川",熊猫24小时专区
 http://192.168.100.2:7088/udp/239.93.1.178:5140
-#EXTINF:-1 tvg-logo="" tvg-id="199" tvg-name="i成都" group-title="四川",i成都
+#EXTINF:-1 tvg-logo="" tvg-id="197" tvg-name="i成都" group-title="四川",i成都
 http://192.168.100.2:7088/udp/239.93.1.104:1234
