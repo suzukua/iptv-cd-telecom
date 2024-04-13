@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-04-10T10:10:09Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-04-13T10:08:26Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
