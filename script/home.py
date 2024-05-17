@@ -28,6 +28,8 @@ groupWS=[ "卫视"]
 groupSC=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
 listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
 
+orders=["CCTV", "卫视", "四川", "其他"]
+
 
 index = 1
 def getID():
@@ -101,8 +103,9 @@ def generateM3U8(file):
     name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
     title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n\n'
     file.write(title)
-
-    for k, v in m.items():
+    for group in arr:
+        k=group
+        v=m[group]
         for c in v:
             if "dup" in c:
                 continue
@@ -116,6 +119,21 @@ def generateM3U8(file):
 
             file.write(line)
             file.write(line2)
+        
+    # for k, v in m.items():
+    #     for c in v:
+    #         if "dup" in c:
+    #             continue
+
+    #         if "ct" in c:
+    #             line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
+    #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
+    #         else:
+    #             line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
+    #             line2 = c["address"] + "\n"
+
+    #         file.write(line)
+    #         file.write(line2)
 
     file.close()
     print("Build m3u8 success.")
