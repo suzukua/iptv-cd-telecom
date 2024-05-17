@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-05-15T10:11:09Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-05-17T05:35:16Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
@@ -36,18 +36,8 @@ http://192.168.100.2:7088/udp/239.93.0.92:5140
 http://192.168.100.2:7088/udp/239.93.1.36:8004
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" tvg-id="18" tvg-name="CCTV4K" group-title="CCTV",CCTV4K
 http://192.168.100.2:7088/udp/239.93.42.42:5140
-#EXTINF:-1 tvg-logo="" tvg-id="20" tvg-name="CGTN英语" group-title="CCTV",CGTN英语
+#EXTINF:-1 tvg-logo="" tvg-id="20" tvg-name="CGTN英语" group-title="其他",CGTN英语
 http://192.168.100.2:7088/udp/239.93.0.104:5140
-#EXTINF:-1 tvg-logo="" tvg-id="80" tvg-name="CETV1" group-title="CCTV",CETV1
-http://192.168.100.2:7088/udp/239.93.1.111:5140
-#EXTINF:-1 tvg-logo="" tvg-id="98" tvg-name="CETV2" group-title="CCTV",CETV2
-http://192.168.100.2:7088/udp/239.93.0.113:5140
-#EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="CETV4" group-title="CCTV",CETV4
-http://192.168.100.2:7088/udp/239.93.0.50:5140
-#EXTINF:-1 tvg-logo="" tvg-id="137" tvg-name="CGTN西班牙语" group-title="CCTV",CGTN西班牙语
-http://192.168.100.2:7088/udp/239.93.42.49:5140
-#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN法语" group-title="CCTV",CGTN法语
-http://192.168.100.2:7088/udp/239.93.42.50:5140
 #EXTINF:-1 tvg-logo="" tvg-id="21" tvg-name="精彩导视" group-title="其他",精彩导视
 http://192.168.100.2:7088/udp/239.93.1.39:5140
 #EXTINF:-1 tvg-logo="" tvg-id="64" tvg-name="陕西农林" group-title="其他",陕西农林
@@ -58,6 +48,8 @@ http://192.168.100.2:7088/udp/239.93.0.142:5140
 http://192.168.100.2:7088/udp/239.93.1.137:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" tvg-id="79" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
 http://192.168.100.2:7088/udp/239.93.0.130:5140
+#EXTINF:-1 tvg-logo="" tvg-id="80" tvg-name="CETV1" group-title="其他",CETV1
+http://192.168.100.2:7088/udp/239.93.1.111:5140
 #EXTINF:-1 tvg-logo="" tvg-id="88" tvg-name="炫动卡通" group-title="其他",炫动卡通
 http://192.168.100.2:7088/udp/239.93.0.173:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" tvg-id="89" tvg-name="嘉佳卡通" group-title="其他",嘉佳卡通
@@ -68,6 +60,10 @@ http://192.168.100.2:7088/udp/239.93.0.62:5140
 http://192.168.100.2:7088/udp/239.93.1.195:5140
 #EXTINF:-1 tvg-logo="" tvg-id="97" tvg-name="家政频道" group-title="其他",家政频道
 http://192.168.100.2:7088/udp/239.93.42.48:5140
+#EXTINF:-1 tvg-logo="" tvg-id="98" tvg-name="CETV2" group-title="其他",CETV2
+http://192.168.100.2:7088/udp/239.93.0.113:5140
+#EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="CETV4" group-title="其他",CETV4
+http://192.168.100.2:7088/udp/239.93.0.50:5140
 #EXTINF:-1 tvg-logo="" tvg-id="100" tvg-name="经典电影专区" group-title="其他",经典电影专区
 http://192.168.100.2:7088/udp/239.93.0.57:9024
 #EXTINF:-1 tvg-logo="" tvg-id="101" tvg-name="华语影院专区" group-title="其他",华语影院专区
@@ -134,6 +130,10 @@ http://192.168.100.2:7088/udp/239.93.0.91:2101
 http://192.168.100.2:7088/udp/239.93.1.171:5140
 #EXTINF:-1 tvg-logo="" tvg-id="136" tvg-name="东方财经" group-title="其他",东方财经
 http://192.168.100.2:7088/udp/239.93.1.165:5140
+#EXTINF:-1 tvg-logo="" tvg-id="137" tvg-name="CGTN西班牙语" group-title="其他",CGTN西班牙语
+http://192.168.100.2:7088/udp/239.93.42.49:5140
+#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN法语" group-title="其他",CGTN法语
+http://192.168.100.2:7088/udp/239.93.42.50:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHTV.jpg" tvg-id="139" tvg-name="百姓健康" group-title="其他",百姓健康
 http://192.168.100.2:7088/udp/239.93.42.35:5140
 #EXTINF:-1 tvg-logo="" tvg-id="145" tvg-name="都市剧场" group-title="其他",都市剧场
