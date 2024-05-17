@@ -103,7 +103,7 @@ def generateM3U8(file):
     name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
     title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n\n'
     file.write(title)
-    for group in arr:
+    for group in orders:
         k=group
         v=m[group]
         for c in v:
