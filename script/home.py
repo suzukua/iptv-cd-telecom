@@ -22,7 +22,8 @@ sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
 homeLanAddress="http://192.168.100.2:7088"
 
 
-groupCCTV=["CCTV", "CETV", "CGTN"]
+# groupCCTV=["CCTV", "CETV", "CGTN"]
+groupCCTV=["CCTV"]
 groupWS=[ "卫视"]
 groupSC=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
 listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
