@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-05-22 18:10:46" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-05-25 18:10:30" url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="CCTV",CCTV2
@@ -84,7 +84,7 @@ http://192.168.100.2:7088/udp/239.93.1.174:5140
 #EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视
 http://192.168.100.2:7088/udp/239.93.0.248:5140
 #EXTINF:-1 tvg-id="55" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视",陕西卫视
-http://192.168.100.2:7088/udp/239.93.0.125:5140
+http://192.168.100.2:7088/udp/239.93.0.143:5140
 #EXTINF:-1 tvg-id="54" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="卫视",山西卫视
 http://192.168.100.2:7088/udp/239.93.0.127:5140
 #EXTINF:-1 tvg-id="52" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="卫视",内蒙古卫视
@@ -111,6 +111,8 @@ http://192.168.100.2:7088/udp/239.93.42.58:5140
 http://192.168.100.2:7088/udp/239.93.1.196:5140
 #EXTINF:-1 tvg-id="63" tvg-name="延边卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/YANBIAN1.png" group-title="卫视",延边卫视
 http://192.168.100.2:7088/udp/239.93.0.249:5140
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="卫视",安多卫视
+http://192.168.100.2:7088/udp/239.93.0.234:5140
 #EXTINF:-1 tvg-id="2064" tvg-name="CDTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv1.png" group-title="四川",CDTV1
 http://192.168.100.2:7088/udp/239.93.0.16:5140
 #EXTINF:-1 tvg-id="2054" tvg-name="SCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv2.png" group-title="四川",SCTV2
