@@ -2,8 +2,8 @@ name: chengdu iptv build
 
 on:
   workflow_dispatch:
-  # schedule:
-    # - cron: "0 14 * * *"
+    schedule:
+      - cron: "0 14 */2 * *"
 
 jobs:
 
