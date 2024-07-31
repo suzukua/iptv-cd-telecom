@@ -129,7 +129,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
     files = {
-        'myfile': ('iptv.m3u8', open(m3u8_file, 'rb', encoding='utf-8'), 'audio/mpegurl')
+        'myfile': ('iptv.m3u8', open(m3u8_file, 'rb'), 'audio/mpegurl')
     }
 
     response = requests.post(url, headers=headers, files=files, verify=False)
