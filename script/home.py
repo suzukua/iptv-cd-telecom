@@ -208,13 +208,16 @@ def generateTXT(file):
 
 def generateHome():
     generateM3U8("./home/iptv_org.m3u8")
+    print("生成m3u8成功")
     convertM3U8("./home/iptv_org.m3u8", "./home/iptv.m3u8")
+    print("转换m3u8成功")
     # generateTXT("./home/iptv.txt")
 
 #exit(0)
 
 
 mIcons = loadIcon()
+print("台标加载完成")
 
 res = requests.get(sourceChengduMulticast).content
 soup = BeautifulSoup(res, 'lxml')
@@ -228,7 +231,6 @@ for tr in soup.find_all(name='tr'):
     if isIn(listUnused, name):
         continue
 
-
     setID(int(td[0].string))
 
     name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
@@ -240,5 +242,5 @@ for tr in soup.find_all(name='tr'):
         m[group] = []
 
     m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
-
+print("频道加载完成")
 generateHome()
