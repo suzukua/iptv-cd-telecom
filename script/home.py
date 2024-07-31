@@ -145,29 +145,11 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         # 下载文件
         file_response = requests.get(absolute_url)
         # 将'your_file_name.extension'替换为所需的文件名和扩展名
-        with open(epg_m3u8_file, 'wb', encoding='utf-8') as file:
+        with open(epg_m3u8_file, 'w', encoding='utf-8') as file:
             file.write(file_response.content)
         print('文件成功下载！')
     else:
         print('在页面上找不到下载链接。')
-
-
-def generateTXT(file):
-    file=open(file, "w", encoding='utf-8')
-    for k, v in m.items():
-        line = '%s,#genre#\n' % (k)
-        file.write(line)
-
-        for c in v:
-            line = '%s,%s/udp/%s\n' % (c["name"], homeLanAddress, c["address"])
-            if "ct" not in c:
-                line = '%s,%s\n' % (c["name"], c["address"])
-
-            file.write(line)
-
-    file.close()
-    print("Build txt success.")
-
 
 def generateHome():
     m3u8_file = './home/iptv.m3u8'
