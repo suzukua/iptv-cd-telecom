@@ -176,7 +176,7 @@ def generateHome():
     print("生成m3u8完成")
     upload_convert_egp(m3u8_file, epg_m3u8_file)
     print("补齐egp文件完成")
-    fill_m3u8.fill_config(epg_m3u8_file, m3u8_file)
+    # fill_m3u8.fill_config(epg_m3u8_file, m3u8_file)
     print("修正m3u8文件完成")
 
 #exit(0)
