@@ -110,30 +110,12 @@ def generateM3U8(file):
             if "dup" in c:
                 continue
 
-            if "ct" in c:
-                line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
-                line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
-            else:
-                line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
-                line2 = c["address"] + "\n"
+            line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="default" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["catchupSource"], c["name"], k, c["name"])
+            line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
+            # line2 = c["catchupSource"] + "\n"
 
             file.write(line)
             file.write(line2)
-        
-    # for k, v in m.items():
-    #     for c in v:
-    #         if "dup" in c:
-    #             continue
-
-    #         if "ct" in c:
-    #             line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
-    #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
-    #         else:
-    #             line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
-    #             line2 = c["address"] + "\n"
-
-    #         file.write(line)
-    #         file.write(line2)
 
     file.close()
     print("Build m3u8 success.")
@@ -241,6 +223,6 @@ for tr in soup.find_all(name='tr'):
     if group not in m:
         m[group] = []
 
-    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
+    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "catchupSource": td[6].string, "icon": icon})
 print("频道加载完成")
 generateHome()
