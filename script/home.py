@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import pytz
+import pytz,re
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
 from datetime import datetime
-
+import fill_m3u8
 
 # 获取中国时区
 china_tz = pytz.timezone('Asia/Shanghai')
@@ -93,6 +93,7 @@ def loadIcon():
 
     return m
 
+tvNameConfig = {}
 def generateM3U8(file):
     file=open(file, "w")
     name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
@@ -111,11 +112,11 @@ def generateM3U8(file):
 
             file.write(line)
             file.write(line2)
-
+            tvNameConfig[c['name']] = c
     file.close()
     print("Build m3u8 success.")
 
-def convertM3U8(file, new_file):
+def upload_convert_egp(m3u8_file, epg_m3u8_file):
     url = 'http://epg.51zmt.top:8000/api/upload/'
     headers = {
         'Accept': '*/*',
@@ -128,7 +129,7 @@ def convertM3U8(file, new_file):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
     files = {
-        'myfile': ('iptv.m3u8', open(file, 'rb'), 'audio/mpegurl')
+        'myfile': ('iptv.m3u8', open(m3u8_file, 'rb'), 'audio/mpegurl')
     }
 
     response = requests.post(url, headers=headers, files=files, verify=False)
@@ -144,24 +145,9 @@ def convertM3U8(file, new_file):
         # 下载文件
         file_response = requests.get(absolute_url)
         # 将'your_file_name.extension'替换为所需的文件名和扩展名
-        with open(new_file, 'wb') as file:
+        with open(epg_m3u8_file, 'wb') as file:
             file.write(file_response.content)
         print('文件成功下载！')
-        # 打开文件并读取内容
-        with open(new_file, 'r') as file:
-            lines = file.readlines()
-        # 替换第一行内容
-        if lines:
-            # 获取当前时间
-            now = datetime.now(china_tz)
-            name = '成都电信IPTV - ' + now.strftime("%Y-%m-%d %H:%M:%S")
-            title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n'
-            lines[0] = title
-            # lines[0] = '#EXTM3U name="成都电信IPTV - 2024-01-15T03:08:35Z" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
-        # 将修改后的内容写回文件
-        with open(new_file, 'w') as file:
-            file.writelines(lines)
-        print('第一行内容已成功替换！')
     else:
         print('在页面上找不到下载链接。')
 
@@ -184,11 +170,14 @@ def generateTXT(file):
 
 
 def generateHome():
-    generateM3U8("./home/iptv_org.m3u8")
-    print("生成m3u8成功")
-    convertM3U8("./home/iptv_org.m3u8", "./home/iptv.m3u8")
-    print("转换m3u8成功")
-    # generateTXT("./home/iptv.txt")
+    m3u8_file = './home/iptv.m3u8'
+    epg_m3u8_file = './home/iptv_epg.m3u8'
+    generateM3U8(m3u8_file)
+    print("生成m3u8完成")
+    upload_convert_egp(m3u8_file, epg_m3u8_file)
+    print("补齐egp文件完成")
+    fill_m3u8.fill_config(epg_m3u8_file, m3u8_file)
+    print("修正m3u8文件完成")
 
 #exit(0)
 
