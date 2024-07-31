@@ -30,22 +30,19 @@ def get_tvg_config_map(m3u8file_config):
 def fill_config(m3u8file_config, m3u8file):
     # 从原文件中查找catchup-source
     tvg_catchup_map = get_tvg_config_map(m3u8file_config)
-    with open(m3u8file, 'rb') as f:
+    with open(m3u8file, 'r+', encoding='utf-8') as f:
         lines = f.readlines()
+        f.seek(0)  # 将文件指针移动到文件开头
         # 逐行处理
         for index, line in enumerate(lines):
-            line = line.decode('utf-8').strip()
             name_match = tvg_name_pattern.match(line)
             if name_match:
                 tvg_name = name_match.group('tvg_name')
                 if tvg_name in tvg_catchup_map:
                     tvg_id = tvg_catchup_map[tvg_name]['tvg_id']
-                    fill_line = tvg_id_replace_pattern.sub(lambda m: f'{m.group(1)}{tvg_id}{m.group(3)}', line, )
-                    print(fill_line)
-                    lines[index] = fill_line
+                    line = tvg_id_replace_pattern.sub(lambda m: f'{m.group(1)}{tvg_id}{m.group(3)}', line)
                 else:
                     print(f"找不到对应的tvg配置：{tvg_name}")
+            f.write(line)
 
-    with open(m3u8file, 'wb') as file:
-        file.write(lines)
-# fill_config('../home/iptv.m3u8', '../home/iptv_org.m3u8')
+# fill_config('../home/iptv_epg.m3u8', '../home/iptv.m3u8')
