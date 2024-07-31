@@ -146,7 +146,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         file_response = requests.get(absolute_url)
         # 将'your_file_name.extension'替换为所需的文件名和扩展名
         with open(epg_m3u8_file, 'w', encoding='utf-8') as file:
-            file.write(file_response.content)
+            file.write(file_response.content.decode())
         print('文件成功下载！')
     else:
         print('在页面上找不到下载链接。')
