@@ -45,6 +45,7 @@ def fill_config(m3u8file_config, m3u8file):
                     lines[index] = fill_line
                 else:
                     print(f"找不到对应的tvg配置：{tvg_name}")
-        print(lines)
 
+    with open(m3u8file, 'wb') as file:
+        file.write(lines)
 # fill_config('../home/iptv.m3u8', '../home/iptv_org.m3u8')
