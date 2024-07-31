@@ -6,15 +6,17 @@ on:
   #     - cron: "0 14 */2 * *"
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+      - name: Set up WARP
+        uses: fscarmen/warp-on-actions@v1.1
+        with:
+          stack: dual   # Optional. Support [ ipv4, ipv6, dual ]. Default is dual.
 
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
@@ -35,7 +37,6 @@ jobs:
       - name: Build home
         run: |
           python3 ./script/home.py
-
 
       - name: Commit
         run: |
