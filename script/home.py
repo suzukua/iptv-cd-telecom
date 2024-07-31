@@ -95,9 +95,9 @@ def loadIcon():
 
 tvNameConfig = {}
 def generateM3U8(file):
-    file=open(file, "w")
+    file=open(file, "w", encoding='utf-8')
     name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
-    title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n\n'
+    title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n'
     file.write(title)
     for group in orders:
         k=group
@@ -129,7 +129,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
     files = {
-        'myfile': ('iptv.m3u8', open(m3u8_file, 'rb'), 'audio/mpegurl')
+        'myfile': ('iptv.m3u8', open(m3u8_file, 'rb', encoding='utf-8'), 'audio/mpegurl')
     }
 
     response = requests.post(url, headers=headers, files=files, verify=False)
@@ -145,7 +145,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         # 下载文件
         file_response = requests.get(absolute_url)
         # 将'your_file_name.extension'替换为所需的文件名和扩展名
-        with open(epg_m3u8_file, 'wb') as file:
+        with open(epg_m3u8_file, 'wb', encoding='utf-8') as file:
             file.write(file_response.content)
         print('文件成功下载！')
     else:
@@ -153,7 +153,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
 
 
 def generateTXT(file):
-    file=open(file, "w")
+    file=open(file, "w", encoding='utf-8')
     for k, v in m.items():
         line = '%s,#genre#\n' % (k)
         file.write(line)
