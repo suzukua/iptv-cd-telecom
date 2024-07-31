@@ -3,13 +3,8 @@
 
 import pytz
 import requests
-import m3u8
-import sys
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 from urllib.parse import urlparse, urljoin
-import strict_rfc3339
-import re
 from datetime import datetime
 
 
@@ -100,7 +95,7 @@ def loadIcon():
 
 def generateM3U8(file):
     file=open(file, "w")
-    name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
+    name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
     title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml\"\n\n'
     file.write(title)
     for group in orders:
@@ -119,7 +114,7 @@ def generateM3U8(file):
 
     file.close()
     print("Build m3u8 success.")
-    
+
 def convertM3U8(file, new_file):
     url = 'http://epg.51zmt.top:8000/api/upload/'
     headers = {
@@ -135,7 +130,7 @@ def convertM3U8(file, new_file):
     files = {
         'myfile': ('iptv.m3u8', open(file, 'rb'), 'audio/mpegurl')
     }
-    
+
     response = requests.post(url, headers=headers, files=files, verify=False)
     print(response.text)
     # 使用BeautifulSoup解析HTML

@@ -3,5 +3,4 @@ pytz==2024.1
 requests==2.32.3
 urllib3==2.2.2
 bs4==0.0.2
-strict-rfc3339==0.7
 lxml==5.2.2
