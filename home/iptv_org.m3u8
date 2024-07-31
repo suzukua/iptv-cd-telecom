@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-07-31T03:06:51Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-07-31T03:11:19Z" url-tvg="http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" catchup="default" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
