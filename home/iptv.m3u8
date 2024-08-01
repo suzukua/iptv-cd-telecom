@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-08-01 10:42:56" url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U name="成都电信IPTV - 2024-08-01 12:42:36" url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.100.2:7088/udp/239.93.0.58:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="2" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221227983/10000100000000060000000003751359_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV2" group-title="CCTV",CCTV2
@@ -25,7 +25,7 @@ http://192.168.100.2:7088/udp/239.93.0.102:5140
 http://192.168.100.2:7088/udp/239.93.1.30:8124
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" tvg-id="14" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228546/658212968.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV13" group-title="CCTV",CCTV13
 http://192.168.100.2:7088/udp/239.93.0.66:5140
-#EXTINF:-1 tvg-logo="" tvg-id="15" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221227992/10000100000000060000000003751527_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV少儿" group-title="CCTV",CCTV少儿
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" tvg-id="15" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221227992/10000100000000060000000003751527_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV14" group-title="CCTV",CCTV少儿
 http://192.168.100.2:7088/udp/239.93.1.29:6000
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" tvg-id="16" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228431/616097934.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CCTV15" group-title="CCTV",CCTV15
 http://192.168.100.2:7088/udp/239.93.0.103:5140
@@ -99,7 +99,7 @@ http://192.168.100.2:7088/udp/239.93.0.83:5140
 http://192.168.100.2:7088/udp/239.93.0.82:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" tvg-id="42" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228549/668868624.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="甘肃卫视" group-title="卫视",甘肃卫视
 http://192.168.100.2:7088/udp/239.93.0.81:5140
-#EXTINF:-1 tvg-logo="" tvg-id="37" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228498/666556981.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="海南卫视" group-title="卫视",海南卫视
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" tvg-id="37" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228498/666556981.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="旅游卫视" group-title="卫视",海南卫视
 http://192.168.100.2:7088/udp/239.93.0.90:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" tvg-id="61" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228478/659011741.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="兵团卫视" group-title="卫视",兵团卫视
 http://192.168.100.2:7088/udp/239.93.42.43:5140
@@ -123,13 +123,13 @@ http://192.168.100.2:7088/udp/239.93.1.102:5140
 http://192.168.100.2:7088/udp/239.93.0.47:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv5.png" tvg-id="2057" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221227947/10000100000000060000000003734394_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="SCTV5" group-title="四川",SCTV5
 http://192.168.100.2:7088/udp/239.93.0.166:5140
-#EXTINF:-1 tvg-logo="" tvg-id="2059" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228421/604622562.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="SCTV6" group-title="四川",SCTV6
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv7.png" tvg-id="2059" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228421/604622562.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="SCTV7" group-title="四川",SCTV6
 http://192.168.100.2:7088/udp/239.93.1.144:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv7.png" tvg-id="2059" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228366/10000100000000060000000004584332_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="SCTV7" group-title="四川",SCTV7
 http://192.168.100.2:7088/udp/239.93.0.219:5140
-#EXTINF:-1 tvg-logo="" tvg-id="2062" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228514/657294250.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="SCTV科教" group-title="四川",SCTV科教
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv8.png" tvg-id="2062" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228514/657294250.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="SCTV8" group-title="四川",SCTV科教
 http://192.168.100.2:7088/udp/239.93.42.44:5140
-#EXTINF:-1 tvg-logo="" tvg-id="7245" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228445/596286934.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="四川乡村" group-title="四川",四川乡村
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" tvg-id="7245" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228445/596286934.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国教育4台" group-title="四川",四川乡村
 http://192.168.100.2:7088/udp/239.93.0.52:5140
 #EXTINF:-1 tvg-logo="" tvg-id="66" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221226951/10000100000000060000000000712272_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="峨眉电影" group-title="四川",峨眉电影
 http://192.168.100.2:7088/udp/239.93.0.252:5140
@@ -163,21 +163,21 @@ http://192.168.100.2:7088/udp/239.93.1.172:5140
 http://192.168.100.2:7088/udp/239.93.1.178:5140
 #EXTINF:-1 tvg-logo="" tvg-id="199" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228398/647574497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="i成都" group-title="四川",i成都
 http://192.168.100.2:7088/udp/239.93.1.104:1234
-#EXTINF:-1 tvg-logo="" tvg-id="20" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228551/671325168.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CGTN英语" group-title="其他",CGTN英语
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" tvg-id="20" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228551/671325168.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CGTN" group-title="其他",CGTN英语
 http://192.168.100.2:7088/udp/239.93.0.104:5140
 #EXTINF:-1 tvg-logo="" tvg-id="21" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228426/613328510.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="精彩导视" group-title="其他",精彩导视
 http://192.168.100.2:7088/udp/239.93.1.39:5140
 #EXTINF:-1 tvg-logo="" tvg-id="64" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228441/622878555.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="陕西农林" group-title="其他",陕西农林
 http://192.168.100.2:7088/udp/239.93.0.100:5140
-#EXTINF:-1 tvg-logo="" tvg-id="1994" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228440/589023143.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国交通" group-title="其他",中国交通
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/zgjt.png" tvg-id="1994" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228440/589023143.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国交通频道" group-title="其他",中国交通
 http://192.168.100.2:7088/udp/239.93.0.142:5140
-#EXTINF:-1 tvg-logo="" tvg-id="1872" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228709/743521031.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="北京纪实科教" group-title="其他",北京纪实科教
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" tvg-id="1872" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228709/743521031.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="北京纪实" group-title="其他",北京纪实科教
 http://192.168.100.2:7088/udp/239.93.0.141:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" tvg-id="1988" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228404/585951193.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="上海纪实" group-title="其他",上海纪实
 http://192.168.100.2:7088/udp/239.93.1.137:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" tvg-id="2025" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228412/585951209.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
 http://192.168.100.2:7088/udp/239.93.0.130:5140
-#EXTINF:-1 tvg-logo="" tvg-id="73" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228373/593436497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CETV1" group-title="其他",CETV1
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" tvg-id="73" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228373/593436497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国教育1台" group-title="其他",CETV1
 http://192.168.100.2:7088/udp/239.93.1.111:5140
 #EXTINF:-1 tvg-logo="" tvg-id="90" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888893/224/3221227155/10000100000000060000000001098393_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="炫动卡通" group-title="其他",炫动卡通
 http://192.168.100.2:7088/udp/239.93.0.173:5140
@@ -189,9 +189,9 @@ http://192.168.100.2:7088/udp/239.93.0.62:5140
 http://192.168.100.2:7088/udp/239.93.1.195:5140
 #EXTINF:-1 tvg-logo="" tvg-id="99" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228483/666311346.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="家政频道" group-title="其他",家政频道
 http://192.168.100.2:7088/udp/239.93.42.48:5140
-#EXTINF:-1 tvg-logo="" tvg-id="74" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228656/680759597.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CETV2" group-title="其他",CETV2
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育2台.png" tvg-id="74" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228656/680759597.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国教育2台" group-title="其他",CETV2
 http://192.168.100.2:7088/udp/239.93.0.113:5140
-#EXTINF:-1 tvg-logo="" tvg-id="7245" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228416/603432209.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CETV4" group-title="其他",CETV4
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" tvg-id="7245" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228416/603432209.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国教育4台" group-title="其他",CETV4
 http://192.168.100.2:7088/udp/239.93.0.50:5140
 #EXTINF:-1 tvg-logo="" tvg-id="102" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226042/10000100000000060000000000076468_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="经典电影专区" group-title="其他",经典电影专区
 http://192.168.100.2:7088/udp/239.93.0.57:9024
@@ -229,7 +229,7 @@ http://192.168.100.2:7088/udp/239.93.0.190:9012
 http://192.168.100.2:7088/udp/239.93.0.106:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" tvg-id="6623" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221226294/10000100000000060000000000394240_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="财富天下" group-title="其他",财富天下
 http://192.168.100.2:7088/udp/239.93.0.116:9136
-#EXTINF:-1 tvg-logo="" tvg-id="85" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226199/00000100000000060000000000035192_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="电竞天堂专区" group-title="其他",电竞天堂专区
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/dianjingtiantang.png" tvg-id="85" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226199/00000100000000060000000000035192_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="电竞天堂" group-title="其他",电竞天堂专区
 http://192.168.100.2:7088/udp/239.93.1.135:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" tvg-id="1983" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226193/00000100000000060000000000035189_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="游戏风云" group-title="其他",游戏风云
 http://192.168.100.2:7088/udp/239.93.0.136:5140
@@ -239,7 +239,7 @@ http://192.168.100.2:7088/udp/239.93.0.197:9040
 http://192.168.100.2:7088/udp/239.93.0.202:9068
 #EXTINF:-1 tvg-logo="" tvg-id="128" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221227932/10000100000000060000000003714449_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="经典剧场专区" group-title="其他",经典剧场专区
 http://192.168.100.2:7088/udp/239.93.0.203:9072
-#EXTINF:-1 tvg-logo="" tvg-id="1988" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888893/224/3221226836/10000100000000060000000001430436_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="纪实人文" group-title="其他",纪实人文
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" tvg-id="1988" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888893/224/3221226836/10000100000000060000000001430436_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="上海纪实" group-title="其他",纪实人文
 http://192.168.100.2:7088/udp/239.93.1.154:5140
 #EXTINF:-1 tvg-logo="" tvg-id="130" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221227975/10000100000000060000000003715620_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="墨宝专区" group-title="其他",墨宝专区
 http://192.168.100.2:7088/udp/239.93.0.215:9132
@@ -259,9 +259,9 @@ http://192.168.100.2:7088/udp/239.93.0.91:2101
 http://192.168.100.2:7088/udp/239.93.1.171:5140
 #EXTINF:-1 tvg-logo="" tvg-id="138" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888893/224/3221228614/701208658.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="东方财经" group-title="其他",东方财经
 http://192.168.100.2:7088/udp/239.93.1.165:5140
-#EXTINF:-1 tvg-logo="" tvg-id="20" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228532/668292019.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CGTN西班牙语" group-title="其他",CGTN西班牙语
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" tvg-id="20" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228532/668292019.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CGTN" group-title="其他",CGTN西班牙语
 http://192.168.100.2:7088/udp/239.93.42.49:5140
-#EXTINF:-1 tvg-logo="" tvg-id="20" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228503/668291866.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CGTN法语" group-title="其他",CGTN法语
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" tvg-id="20" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888895/224/3221228503/668291866.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CGTN" group-title="其他",CGTN法语
 http://192.168.100.2:7088/udp/239.93.42.50:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHTV.jpg" tvg-id="6627" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228453/656571188.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="百姓健康" group-title="其他",百姓健康
 http://192.168.100.2:7088/udp/239.93.42.35:5140
@@ -295,7 +295,7 @@ http://192.168.100.2:7088/udp/239.93.1.179:5140
 http://192.168.100.2:7088/udp/239.93.1.191:5140
 #EXTINF:-1 tvg-logo="" tvg-id="171" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228636/687288046.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中录动漫4K专区" group-title="其他",中录动漫4K专区
 http://192.168.100.2:7088/udp/239.93.1.188:5140
-#EXTINF:-1 tvg-logo="" tvg-id="7245" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228646/690652062.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="4K乐享超清专区" group-title="其他",4K乐享超清专区
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" tvg-id="7245" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228646/690652062.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国教育4台" group-title="其他",4K乐享超清专区
 http://192.168.100.2:7088/udp/239.93.0.43:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE37.jpg" tvg-id="6596" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228623/736363024.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="书画频道" group-title="其他",书画频道
 http://192.168.100.2:7088/udp/239.93.42.67:5140
@@ -339,13 +339,13 @@ http://192.168.100.2:7088/udp/239.93.1.198:5140
 http://192.168.100.2:7088/udp/239.93.1.197:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTBfengyun.png" tvg-id="6559" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228731/736239662.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="风云剧场" group-title="其他",风云剧场
 http://192.168.100.2:7088/udp/239.93.1.156:5140
-#EXTINF:-1 tvg-logo="" tvg-id="6246" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228547/675977248.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CHC家庭影院" group-title="其他",CHC家庭影院
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" tvg-id="6246" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228547/675977248.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CHC家庭电影" group-title="其他",CHC家庭影院
 http://192.168.100.2:7088/udp/239.93.42.6:5140
 #EXTINF:-1 tvg-logo="" tvg-id="196" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228571/675977226.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CHC电影" group-title="其他",CHC电影
 http://192.168.100.2:7088/udp/239.93.42.5:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" tvg-id="6245" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228552/675981650.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="CHC动作电影" group-title="其他",CHC动作电影
 http://192.168.100.2:7088/udp/239.93.42.7:5140
-#EXTINF:-1 tvg-logo="" tvg-id="1977" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228675/735169480.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" tvg-id="1977" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/446/224/3221228675/735169480.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="欢笑剧场" group-title="其他",欢笑剧场4K
 http://192.168.100.2:7088/udp/239.93.0.145:5140
 #EXTINF:-1 tvg-logo="" tvg-id="200" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228487/655054047.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="中国体育1" group-title="其他",中国体育1
 http://192.168.100.2:7088/udp/239.93.42.25:5140
