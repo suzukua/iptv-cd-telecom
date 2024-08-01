@@ -97,7 +97,7 @@ tvNameConfig = {}
 def generateM3U8(file):
     file=open(file, "w", encoding='utf-8')
     name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
-    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz" url-tvg="http://epg.51zmt.top:8000/e.xml.gz"\n'
+    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml" url-tvg="http://epg.51zmt.top:8000/e.xml"\n'
     file.write(title)
     for group in orders:
         k=group
