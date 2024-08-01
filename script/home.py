@@ -105,8 +105,7 @@ def generateM3U8(file):
         for c in v:
             if "dup" in c:
                 continue
-
-            line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="default" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["catchupSource"], c["name"], k, c["name"])
+            line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["catchupDays"], c["catchupSource"], c["name"], k, c["name"])
             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             # line2 = c["catchupSource"] + "\n"
 
@@ -181,6 +180,7 @@ for tr in soup.find_all(name='tr'):
 
     setID(int(td[0].string))
 
+    name = fill_m3u8.fullwidth_to_halfwidth(name)
     name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
 
     group = filterCategory(name)
@@ -189,6 +189,6 @@ for tr in soup.find_all(name='tr'):
     if group not in m:
         m[group] = []
 
-    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "catchupSource": td[6].string, "icon": icon})
+    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "catchupSource": td[6].string, "catchupDays": td[3].string, "icon": icon})
 print("频道加载完成")
 generateHome()
