@@ -10,6 +10,7 @@ tvg_id_replace_pattern = re.compile(r'(tvg-id=")([^"]*)(")')
 tvg_name_replace_pattern = re.compile(r'(tvg-name=")([^"]*)(")')
 tvg_logo_replace_pattern = re.compile(r'(tvg-logo=")([^"]*)(")')
 
+
 def fullwidth_to_halfwidth(ustring):
     """将字符串中的全角字符转换为半角字符"""
     result = []
@@ -22,6 +23,7 @@ def fullwidth_to_halfwidth(ustring):
         result.append(chr(inside_code))
     return ''.join(result)
 
+
 def get_tvg_config(m3u8file_config, tvg_name):
     with open(m3u8file_config, 'rb') as f:
         lines = f.readlines()
@@ -29,7 +31,8 @@ def get_tvg_config(m3u8file_config, tvg_name):
         for line in lines:
             line = line.decode('utf-8')
             half_tvg_name = fullwidth_to_halfwidth(tvg_name)
-            name_include_match = re.compile(fr'#EXTINF:-1.*?({re.escape(tvg_name)}|{re.escape(half_tvg_name)})', re.IGNORECASE).match(line)
+            name_include_match = re.compile(fr'#EXTINF:-1.*?({re.escape(tvg_name)}|{re.escape(half_tvg_name)})',
+                                            re.IGNORECASE).match(line)
             if name_include_match:
                 tvg_config = {"tvg_name": "", "tvg_id": "", "tvg_logo": ""}
                 id_match = tvg_id_pattern.match(line)
@@ -44,6 +47,7 @@ def get_tvg_config(m3u8file_config, tvg_name):
                 print(f"TVG : {tvg_config}")
                 print('-' * 40)
                 return tvg_config
+
 
 def fill_config(m3u8file_config, m3u8file):
     # 从原文件中查找catchup-source
