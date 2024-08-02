@@ -3,3 +3,4 @@
 *.swo
 .idea
 script/home
+script/__pycache__
