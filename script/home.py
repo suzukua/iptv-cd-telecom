@@ -93,7 +93,6 @@ def loadIcon():
 
     return m
 
-tvNameConfig = {}
 def generateM3U8(file):
     file=open(file, "w", encoding='utf-8')
     name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
@@ -111,7 +110,6 @@ def generateM3U8(file):
 
             file.write(line)
             file.write(line2)
-            tvNameConfig[c['name']] = c
     file.close()
     print("Build m3u8 success.")
 
