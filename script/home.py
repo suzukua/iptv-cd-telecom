@@ -114,8 +114,8 @@ def generateM3U8(file):
                 continue
             line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (
             c["icon"], c["id"], c["catchupDays"], c["catchupSource"], c["name"], k, c["name"])
-            line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
-            # line2 = c["catchupSource"] + "\n"
+#             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
+            line2 = c["catchupSource"] + "\n"
 
             file.write(line)
             file.write(line2)
