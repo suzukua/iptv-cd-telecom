@@ -110,8 +110,8 @@ def generateM3U8(file):
         for c in v:
             if "dup" in c:
                 continue
-            line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (
-            c["icon"], c["id"], c["catchupDays"], c["catchupSource"], c["name"], k, c["name"])
+            line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (
+            c["icon"], c["id"], c["catchupDays"], c["name"], k, c["name"])
 #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             line2 = c["catchupSource"] + "\n"
 
