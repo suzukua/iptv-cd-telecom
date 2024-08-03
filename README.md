@@ -1,4 +1,5 @@
-### 成都电信iptv列表
+### CD Telecom IPTV列表
 
 
-匹配EPG数据匹配问题
+匹配EPG数据
+支持回看
