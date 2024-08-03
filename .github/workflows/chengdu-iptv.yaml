@@ -26,13 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
-          pip install m3u8
-          pip install bs4
-          pip install lxml
-          pip install html5lib
-          pip install strict-rfc3339
-          pip install pytz
+          pip install -r ./script/requirements.txt
 
       - name: Build home
         run: |
@@ -40,8 +34,8 @@ jobs:
 
       - name: Commit
         run: |
-          git config --global user.name 'dan'
-          git config --global user.email 'dan@github.com'
+          git config --global user.name 'suzukua_bot'
+          git config --global user.email 'suzukua_bot'
           git add .
           git commit -am "Automated build"
           git push
