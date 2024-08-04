@@ -74,7 +74,7 @@ def findIcon(m, id):
 
 
 def loadIcon():
-    res = requests.get(sourceIcon51ZMT).content
+    res = requests.get(sourceIcon51ZMT, timeout=(10, 30)).content
     m = []
     # res=""
     # with open('./index.html') as f:
@@ -110,8 +110,8 @@ def generateM3U8(file):
         for c in v:
             if "dup" in c:
                 continue
-            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" tvg-name="%s" group-title="%s",%s\n' % (
-            c["icon"], c["id"], c["catchupDays"], c["name"], k, c["name"])
+            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
+            c["icon"], c["id"], c["name"], c["catchupDays"], k, c["name"])
 #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             line2 = c["catchupSource"] + "\n"
 
@@ -137,7 +137,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         'myfile': ('iptv.m3u8', open(m3u8_file, 'rb'), 'audio/mpegurl')
     }
 
-    response = requests.post(url, headers=headers, files=files, verify=False)
+    response = requests.post(url, headers=headers, files=files, verify=False, timeout=(10, 30))
     print(response.text)
     # 使用BeautifulSoup解析HTML
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -148,7 +148,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         # 获取绝对URL
         absolute_url = urljoin(urlparse(url).scheme + "://" + urlparse(url).hostname, file_url)
         # 下载文件
-        file_response = requests.get(absolute_url)
+        file_response = requests.get(absolute_url, timeout=(10, 30))
         # 将'your_file_name.extension'替换为所需的文件名和扩展名
         with open(epg_m3u8_file, 'w', encoding='utf-8') as file:
             file.write(file_response.content.decode())
@@ -174,7 +174,7 @@ print("开始加载台标")
 mIcons = loadIcon()
 print("台标加载完成")
 print("开始加载频道")
-res = requests.get(sourceChengduMulticast).content
+res = requests.get(sourceChengduMulticast, timeout=(10, 30)).content
 soup = BeautifulSoup(res, 'lxml')
 m = {}
 for tr in soup.find_all(name='tr'):
