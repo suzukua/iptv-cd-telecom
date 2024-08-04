@@ -44,8 +44,8 @@ def get_tvg_config(m3u8file_config, tvg_name):
                     tvg_config['tvg_name'] = name_match.group('tvg_name')
                 if logo_match:
                     tvg_config['tvg_logo'] = logo_match.group('tvg_logo')
-                print(f"TVG : {tvg_config}")
-                print('-' * 40)
+                # print(f"TVG : {tvg_config}")
+                # print('-' * 40)
                 return tvg_config
 
 

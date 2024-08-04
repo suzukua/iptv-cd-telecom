@@ -170,10 +170,10 @@ def generateHome():
 
 # exit(0)
 
-
+print("开始加载台标")
 mIcons = loadIcon()
 print("台标加载完成")
-
+print("开始加载频道")
 res = requests.get(sourceChengduMulticast).content
 soup = BeautifulSoup(res, 'lxml')
 m = {}
