@@ -13,10 +13,27 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up WARP
-        uses: fscarmen/warp-on-actions@v1.1
-        with:
-          stack: dual   # Optional. Support [ ipv4, ipv6, dual ]. Default is dual.
+      - name: IPV4/IPV6 Support
+        using: composite
+        run: |
+          echo "WARP mode: client warp+doh."
+          sudo apt-get -y update
+          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+          sudo apt-get update
+          sudo apt-get install -y cloudflare-warp
+          sudo warp-cli --accept-tos registration new
+          sudo warp-cli --accept-tos mode warp+doh
+          sudo warp-cli --accept-tos connect
+
+          sleep 1
+          echo "IPv4: $(sudo curl -s4m8 --retry 3 -A Mozilla https://api.ip.sb/geoip)"
+          echo "IPv6: $(sudo curl -s6m8 --retry 3 -A Mozilla https://api.ip.sb/geoip)"
+        shell: bash
+#      - name: Set up WARP
+#        uses: fscarmen/warp-on-actions@v1.1
+#        with:
+#          stack: dual   # Optional. Support [ ipv4, ipv6, dual ]. Default is dual.
 
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
