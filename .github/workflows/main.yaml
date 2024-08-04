@@ -14,7 +14,6 @@ jobs:
           fetch-depth: 0
 
       - name: IPV4/IPV6 Support
-        uses: composite
         run: |
           echo "WARP mode: client warp+doh."
           sudo apt-get -y update
