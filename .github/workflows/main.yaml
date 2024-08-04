@@ -28,6 +28,8 @@ jobs:
           sleep 1
           echo "IPv4: $(sudo curl -s4m8 --retry 3 -A Mozilla https://api.ip.sb/geoip)"
           echo "IPv6: $(sudo curl -s6m8 --retry 3 -A Mozilla https://api.ip.sb/geoip)"
+          sleep 1
+          ifconfig
         shell: bash
 #      - name: Set up WARP
 #        uses: fscarmen/warp-on-actions@v1.1
