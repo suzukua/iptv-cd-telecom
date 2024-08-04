@@ -39,6 +39,3 @@ jobs:
           git add .
           git commit -am "Automated build"
           git push
-
-
-
