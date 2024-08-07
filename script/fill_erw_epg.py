@@ -18,11 +18,27 @@ name_mapping = {"CCTV5+": "CCTV5plus", "旅游卫视": "海南卫视","卡酷动
                 "CDTV3": "成都都市生活", "CDTV4": "成都影视文艺", "CDTV5": "成都公共", "CDTV6": "成都少儿"}
 
 
-
+file_name = './home/epg.erw.cc.html'
 def download_channel_list():
     channel = []
-    res = requests.get("https://epg.erw.cc/", timeout=(10, 30)).content
-    soup = BeautifulSoup(res, 'lxml')
+    try:
+        res = requests.get("https://epg.erw.cc/", timeout=(10, 30))
+        # Open a local file with write-binary mode
+        with open(file_name, 'wb') as f:
+            # Write the content of the response to the file
+            f.write(res.content)
+    except requests.exceptions.HTTPError as http_err:
+        print(f'HTTP error occurred: {http_err}')
+    except requests.exceptions.ConnectionError as conn_err:
+        print(f'Connection error occurred: {conn_err}')
+    except requests.exceptions.Timeout as timeout_err:
+        print(f'Timeout error occurred: {timeout_err}')
+    except requests.exceptions.RequestException as req_err:
+        print(f'An error occurred: {req_err}')
+
+    with open(file_name, 'r', encoding='utf-8') as file:
+        content = file.read()
+    soup = BeautifulSoup(content, 'lxml')
     for tr in soup.find_all(name='tr', class_='channel-row'):
         tds = tr.find_all(name='td')
         if len(tds) < 5:
