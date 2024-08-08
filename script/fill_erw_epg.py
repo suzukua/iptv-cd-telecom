@@ -27,14 +27,8 @@ def download_channel_list():
         with open(file_name, 'wb') as f:
             # Write the content of the response to the file
             f.write(res.content)
-    except requests.exceptions.HTTPError as http_err:
-        print(f'HTTP error occurred: {http_err}')
-    except requests.exceptions.ConnectionError as conn_err:
-        print(f'Connection error occurred: {conn_err}')
-    except requests.exceptions.Timeout as timeout_err:
-        print(f'Timeout error occurred: {timeout_err}')
-    except requests.exceptions.RequestException as req_err:
-        print(f'An error occurred: {req_err}')
+    except BaseException as err:
+        print(f'HTTP error occurred: {err}')
 
     with open(file_name, 'r', encoding='utf-8') as file:
         content = file.read()
