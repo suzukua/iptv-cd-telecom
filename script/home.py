@@ -120,12 +120,14 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         'Referer': 'http://epg.51zmt.top:8000/',
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
+    upload_file = open(m3u8_file, 'rb')
     files = {
-        'myfile': ('iptv.m3u8', open(m3u8_file, 'rb'), 'audio/mpegurl')
+        'myfile': ('iptv.m3u8', upload_file, 'audio/mpegurl')
     }
 
     response = requests.post(url, headers=headers, files=files, verify=False, timeout=(10, 30))
     print(response.text)
+    upload_file.close()
     # 使用BeautifulSoup解析HTML
     soup = BeautifulSoup(response.text, 'html.parser')
     # 在HTML中查找下载链接
