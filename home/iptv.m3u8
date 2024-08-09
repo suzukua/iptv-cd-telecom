@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-08-09 12:27:32" x-tvg-url="https://epg.erw.cc/all.xml.gz"
+#EXTM3U name="成都电信IPTV - 2024-08-09 14:04:06" x-tvg-url="https://epg.erw.cc/all.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -557,4 +557,3 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228533/678608065.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="219" tvg-name="华西证券" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",华西证券
 rtsp://182.139.235.40/PLTV/88888896/224/3221228657/720958029.smil
-221228657/720958029.smil
