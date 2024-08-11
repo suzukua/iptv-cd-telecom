@@ -21,7 +21,7 @@ groupCCTV = ["CCTV"]
 groupWS = ["卫视"]
 groupSC = ["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
 # 过滤如下列表中的频道
-listUnused = ["单音轨", "画中画", "热门", "直播室", "爱", "92"]
+listUnused = ["单音轨", "画中画", "热门", "直播室", "爱", "92", "创新及人才", "云演艺", "雅克音乐", "电信导视", "嘉佳卡通", "家政频道", "戏曲专区", "生活时尚", "足球高清专区", "红色影院专区", "经典剧场专区", "解密高清专区", "地理高清专区", "导视专区", "来钓鱼", "麻辣体育", "绚影", "亲子趣学", "中录动漫", "中国体育"]
 
 orders = ["CCTV", "卫视", "四川", "其他"]
 
@@ -173,14 +173,14 @@ for tr in soup.find_all(name='tr'):
     td = tr.find_all(name='td')
     if td[0].string == "序号":
         continue
-
+    if td[5].string == '未能播放':
+        continue
     name = td[1].string
     if isIn(listUnused, name):
         continue
 
     name = fill_m3u8.fullwidth_to_halfwidth(name)
     name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
-
     group = filterCategory(name)
     icon = findIcon(mIcons, name)
 
