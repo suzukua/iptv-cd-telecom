@@ -181,14 +181,10 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221228412/585951209.smil
 rtsp://182.139.235.40/PLTV/88888888/224/3221228373/593436497.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",炫动卡通
 rtsp://182.139.235.40/PLTV/88888893/224/3221227155/10000100000000060000000001098393_0.smil
-#EXTINF:-1 tvg-id="6010" tvg-name="嘉佳卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" group-title="其他",嘉佳卡通
-rtsp://182.139.235.40/PLTV/88888893/224/3221226286/10000100000000060000000000378082_0.smil
 #EXTINF:-1 tvg-id="6573" tvg-name="汽摩" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE22.jpg" group-title="其他",汽摩
 rtsp://182.139.235.40/PLTV/88888896/224/3221228667/728909874.smil
 #EXTINF:-1 tvg-id="6555" tvg-name="梨园" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE20.jpg" group-title="其他",梨园
 rtsp://182.139.235.40/PLTV/88888896/224/3221228629/730462969.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",家政频道
-rtsp://182.139.235.40/PLTV/88888896/224/3221228483/666311346.smil
 #EXTINF:-1 tvg-id="74" tvg-name="中国教育2台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育2台.png" group-title="其他",CETV2
 rtsp://182.139.235.40/PLTV/88888896/224/3221228656/680759597.smil
 #EXTINF:-1 tvg-id="7245" tvg-name="中国教育4台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="其他",CETV4
@@ -221,36 +217,20 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221226323/00000100000000060000000000035
 rtsp://182.139.235.40/PLTV/88888895/224/3221227938/10000100000000060000000003714453_0.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",戏曲精选专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221228397/10000100000000060000000004900703_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",戏曲专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227963/10000100000000060000000003714450_0.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",魅力时尚专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226503/10000100000000060000000000076469_0.smil
-#EXTINF:-1 tvg-id="1981" tvg-name="生活时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" group-title="其他",生活时尚
-rtsp://182.139.235.40/PLTV/88888893/224/3221228415/10000100000000060000000004901361_0.smil
 #EXTINF:-1 tvg-id="6623" tvg-name="财富天下" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" group-title="其他",财富天下
 rtsp://182.139.235.40/PLTV/88888895/224/3221226294/10000100000000060000000000394240_0.smil
 #EXTINF:-1 tvg-id="85" tvg-name="电竞天堂" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/dianjingtiantang.png" group-title="其他",电竞天堂专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226199/00000100000000060000000000035192_0.smil
 #EXTINF:-1 tvg-id="1983" tvg-name="游戏风云" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" group-title="其他",游戏风云
 rtsp://182.139.235.40/PLTV/88888888/224/3221226193/00000100000000060000000000035189_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",足球专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227969/10000100000000060000000003714446_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",红色影院专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227916/10000100000000060000000003714447_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",经典剧场专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227932/10000100000000060000000003714449_0.smil
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="其他",纪实人文
 rtsp://182.139.235.40/PLTV/88888893/224/3221226836/10000100000000060000000001430436_0.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",墨宝专区
 rtsp://182.139.235.40/PLTV/88888895/224/3221227975/10000100000000060000000003715620_0.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",军事专区
 rtsp://182.139.235.40/PLTV/88888895/224/3221227910/10000100000000060000000003714451_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",解密专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227929/10000100000000060000000003714452_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",地理专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227926/10000100000000060000000003714454_0.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",导视专区
-rtsp://182.139.235.40/PLTV/88888888/224/3221226185/00000100000000060000000000035185_0.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",收视指南专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226048/10000100000000060000000000076474_0.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",蓉城先锋专区
@@ -271,16 +251,8 @@ rtsp://182.139.235.40/PLTV/446/224/3221228448/656044391.smil
 rtsp://182.139.235.40/PLTV/446/224/3221228502/656570997.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",求索频道
 rtsp://182.139.235.40/PLTV/446/224/3221228494/654861653.smil
-#EXTINF:-1 tvg-id="1981" tvg-name="生活时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" group-title="其他",生活时尚
-rtsp://182.139.235.40/PLTV/446/224/3221228497/656044375.smil
 #EXTINF:-1 tvg-id="6608" tvg-name="环球旅游" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC6.jpg" group-title="其他",环球旅游
 rtsp://182.139.235.40/PLTV/446/224/3221228471/656044603.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",来钓鱼吧专区
-rtsp://182.139.235.40/PLTV/446/224/3221228495/654213801.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",麻辣体育专区
-rtsp://182.139.235.40/PLTV/446/224/3221228408/654212908.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",绚影4K专区
-rtsp://182.139.235.40/PLTV/446/224/3221228530/656103811.smil
 #EXTINF:-1 tvg-id="6602" tvg-name="先锋乒羽" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/XFBY.png" group-title="其他",先锋乒羽
 rtsp://182.139.235.40/PLTV/446/224/3221228523/675976893.smil
 #EXTINF:-1 tvg-id="6578" tvg-name="天元围棋" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/TIANYUANWEIQI.jpg" group-title="其他",天元围棋
@@ -291,10 +263,6 @@ rtsp://182.139.235.40/PLTV/446/224/3221228594/694519708.smil
 rtsp://182.139.235.40/PLTV/446/224/3221228681/694512629.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",乐龄学堂专区
 rtsp://182.139.235.40/PLTV/446/224/3221228582/686531562.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",亲子趣学4k专区
-rtsp://182.139.235.40/PLTV/446/224/3221228553/687288414.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",中录动漫4K专区
-rtsp://182.139.235.40/PLTV/446/224/3221228636/687288046.smil
 #EXTINF:-1 tvg-id="7245" tvg-name="中国教育4台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="其他",4K乐享超清专区
 rtsp://182.139.235.40/PLTV/446/224/3221228646/690652062.smil
 #EXTINF:-1 tvg-id="6596" tvg-name="书画频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE37.jpg" group-title="其他",书画频道
@@ -347,27 +315,9 @@ rtsp://182.139.235.40/PLTV/446/224/3221228571/675977226.smil
 rtsp://182.139.235.40/PLTV/446/224/3221228552/675981650.smil
 #EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="其他",欢笑剧场4K
 rtsp://182.139.235.40/PLTV/446/224/3221228675/735169480.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",中国体育1
-rtsp://182.139.235.40/PLTV/88888896/224/3221228487/655054047.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",中国体育2
-rtsp://182.139.235.40/PLTV/88888896/224/3221228433/655054051.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",中国体育3
-rtsp://182.139.235.40/PLTV/88888896/224/3221228438/655054251.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",精彩推荐专区
 rtsp://182.139.235.40/PLTV/88888896/224/3221228388/646135582.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",红原日干乔
 rtsp://182.139.235.40/PLTV/88888896/224/3221228455/640973808.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",红原月亮湾
 rtsp://182.139.235.40/PLTV/88888896/224/3221228424/640973626.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",电信导视3
-rtsp://182.139.235.40/PLTV/88888896/224/3221228650/711984139.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",雅克音乐节直播
-rtsp://182.139.235.40/PLTV/88888896/224/3221228591/681159125.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",雅克音乐节宣传
-rtsp://182.139.235.40/PLTV/88888896/224/3221228570/681159121.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",云演艺宣传
-rtsp://182.139.235.40/PLTV/88888896/224/3221228538/678607124.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",创新及人才文化节
-rtsp://182.139.235.40/PLTV/88888896/224/3221228533/678608065.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",华西证券
-rtsp://182.139.235.40/PLTV/88888896/224/3221228657/720958029.smil

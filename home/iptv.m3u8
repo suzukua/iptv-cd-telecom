@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-08-11 00:00:53" x-tvg-url="https://epg.erw.cc/all.xml.gz"
+#EXTM3U name="成都电信IPTV - 2024-08-11 15:42:21" x-tvg-url="https://epg.erw.cc/all.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -273,17 +273,11 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221228373/593436497.smil
 #EXTINF:-1 tvg-logo="" tvg-id="90" tvg-name="炫动卡通" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",炫动卡通
 rtsp://182.139.235.40/PLTV/88888893/224/3221227155/10000100000000060000000001098393_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" tvg-id="159" tvg-name="嘉佳卡通" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",嘉佳卡通
-rtsp://182.139.235.40/PLTV/88888893/224/3221226286/10000100000000060000000000378082_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE22.jpg" tvg-id="232" tvg-name="汽摩" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",汽摩
 rtsp://182.139.235.40/PLTV/88888896/224/3221228667/728909874.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE20.jpg" tvg-id="230" tvg-name="梨园" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",梨园
 rtsp://182.139.235.40/PLTV/88888896/224/3221228629/730462969.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="家政频道" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",家政频道
-rtsp://182.139.235.40/PLTV/88888896/224/3221228483/666311346.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育2台.png" tvg-id="152" tvg-name="中国教育2台" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV2
 rtsp://182.139.235.40/PLTV/88888896/224/3221228656/680759597.smil
@@ -333,14 +327,8 @@ rtsp://182.139.235.40/PLTV/88888895/224/3221227938/10000100000000060000000003714
 #EXTINF:-1 tvg-logo="" tvg-id="117" tvg-name="戏曲精选专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",戏曲精选专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221228397/10000100000000060000000004900703_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="118" tvg-name="戏曲专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",戏曲专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227963/10000100000000060000000003714450_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="119" tvg-name="魅力时尚专区" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",魅力时尚专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226503/10000100000000060000000000076469_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="188" tvg-name="生活时尚" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",生活时尚
-rtsp://182.139.235.40/PLTV/88888893/224/3221228415/10000100000000060000000004901361_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" tvg-id="6623" tvg-name="财富天下" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",财富天下
 rtsp://182.139.235.40/PLTV/88888895/224/3221226294/10000100000000060000000000394240_0.smil
@@ -351,15 +339,6 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221226199/00000100000000060000000000035
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" tvg-id="222" tvg-name="游戏风云" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",游戏风云
 rtsp://182.139.235.40/PLTV/88888888/224/3221226193/00000100000000060000000000035189_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="126" tvg-name="足球专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",足球专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227969/10000100000000060000000003714446_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="127" tvg-name="红色影院专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",红色影院专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227916/10000100000000060000000003714447_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="128" tvg-name="经典剧场专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",经典剧场专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227932/10000100000000060000000003714449_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" tvg-id="1988" tvg-name="上海纪实" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",纪实人文
 rtsp://182.139.235.40/PLTV/88888893/224/3221226836/10000100000000060000000001430436_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -368,15 +347,6 @@ rtsp://182.139.235.40/PLTV/88888895/224/3221227975/10000100000000060000000003715
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="131" tvg-name="军事专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",军事专区
 rtsp://182.139.235.40/PLTV/88888895/224/3221227910/10000100000000060000000003714451_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="132" tvg-name="解密专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",解密专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227929/10000100000000060000000003714452_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="133" tvg-name="地理专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",地理专区
-rtsp://182.139.235.40/PLTV/88888895/224/3221227926/10000100000000060000000003714454_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="134" tvg-name="导视专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",导视专区
-rtsp://182.139.235.40/PLTV/88888888/224/3221226185/00000100000000060000000000035185_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="135" tvg-name="收视指南专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",收视指南专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226048/10000100000000060000000000076474_0.smil
@@ -408,20 +378,8 @@ rtsp://182.139.235.40/PLTV/446/224/3221228502/656570997.smil
 #EXTINF:-1 tvg-logo="" tvg-id="156" tvg-name="求索频道" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",求索频道
 rtsp://182.139.235.40/PLTV/446/224/3221228494/654861653.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="188" tvg-name="生活时尚" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",生活时尚
-rtsp://182.139.235.40/PLTV/446/224/3221228497/656044375.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC6.jpg" tvg-id="238" tvg-name="环球旅游" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",环球旅游
 rtsp://182.139.235.40/PLTV/446/224/3221228471/656044603.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="162" tvg-name="来钓鱼吧专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",来钓鱼吧专区
-rtsp://182.139.235.40/PLTV/446/224/3221228495/654213801.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="163" tvg-name="麻辣体育专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",麻辣体育专区
-rtsp://182.139.235.40/PLTV/446/224/3221228408/654212908.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="164" tvg-name="绚影4K专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",绚影4K专区
-rtsp://182.139.235.40/PLTV/446/224/3221228530/656103811.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/XFBY.png" tvg-id="242" tvg-name="先锋乒羽" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",先锋乒羽
 rtsp://182.139.235.40/PLTV/446/224/3221228523/675976893.smil
@@ -437,12 +395,6 @@ rtsp://182.139.235.40/PLTV/446/224/3221228681/694512629.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="169" tvg-name="乐龄学堂专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",乐龄学堂专区
 rtsp://182.139.235.40/PLTV/446/224/3221228582/686531562.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="170" tvg-name="亲子趣学4k专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",亲子趣学4k专区
-rtsp://182.139.235.40/PLTV/446/224/3221228553/687288414.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="171" tvg-name="中录动漫4K专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",中录动漫4K专区
-rtsp://182.139.235.40/PLTV/446/224/3221228636/687288046.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" tvg-id="154" tvg-name="中国教育4台" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",4K乐享超清专区
 rtsp://182.139.235.40/PLTV/446/224/3221228646/690652062.smil
@@ -522,15 +474,6 @@ rtsp://182.139.235.40/PLTV/446/224/3221228552/675981650.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" tvg-id="183" tvg-name="欢笑剧场" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",欢笑剧场4K
 rtsp://182.139.235.40/PLTV/446/224/3221228675/735169480.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="200" tvg-name="中国体育1" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",中国体育1
-rtsp://182.139.235.40/PLTV/88888896/224/3221228487/655054047.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="201" tvg-name="中国体育2" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",中国体育2
-rtsp://182.139.235.40/PLTV/88888896/224/3221228433/655054051.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="202" tvg-name="中国体育3" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",中国体育3
-rtsp://182.139.235.40/PLTV/88888896/224/3221228438/655054251.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="203" tvg-name="精彩推荐专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",精彩推荐专区
 rtsp://182.139.235.40/PLTV/88888896/224/3221228388/646135582.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -539,21 +482,3 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228455/640973808.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="213" tvg-name="红原月亮湾" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",红原月亮湾
 rtsp://182.139.235.40/PLTV/88888896/224/3221228424/640973626.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="214" tvg-name="电信导视3" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",电信导视3
-rtsp://182.139.235.40/PLTV/88888896/224/3221228650/711984139.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="215" tvg-name="雅克音乐节直播" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",雅克音乐节直播
-rtsp://182.139.235.40/PLTV/88888896/224/3221228591/681159125.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="216" tvg-name="雅克音乐节宣传" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",雅克音乐节宣传
-rtsp://182.139.235.40/PLTV/88888896/224/3221228570/681159121.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="217" tvg-name="云演艺宣传" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",云演艺宣传
-rtsp://182.139.235.40/PLTV/88888896/224/3221228538/678607124.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="218" tvg-name="创新及人才文化节" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",创新及人才文化节
-rtsp://182.139.235.40/PLTV/88888896/224/3221228533/678608065.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="219" tvg-name="华西证券" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",华西证券
-rtsp://182.139.235.40/PLTV/88888896/224/3221228657/720958029.smil
