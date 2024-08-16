@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import pytz
+import pytz,os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
@@ -162,9 +162,9 @@ def generateHome():
 
 # exit(0)
 
-print("开始加载台标")
-mIcons = loadIcon()
-print("台标加载完成")
+# print("开始加载台标")
+# mIcons = loadIcon()
+# print("台标加载完成")
 print("开始加载频道")
 res = requests.get(sourceChengduMulticast, timeout=(10, 30)).content
 soup = BeautifulSoup(res, 'lxml')
@@ -182,8 +182,10 @@ for tr in soup.find_all(name='tr'):
     name = fill_m3u8.fullwidth_to_halfwidth(name)
     name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
     group = filterCategory(name)
-    icon = findIcon(mIcons, name)
-
+    # icon = findIcon(mIcons, name)
+    icon = ''
+    if os.path.exists(f'./logo/{name}.png'):
+        icon = f'https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/{name}.png'
     if group not in m:
         m[group] = []
 
