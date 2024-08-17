@@ -89,7 +89,8 @@ def generateM3U8(file):
     file = open(file, "w", encoding='utf-8')
     name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
     # title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz" url-tvg="http://epg.51zmt.top:8000/e.xml.gz"\n'
-    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz"\n'
+    # title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz"\n'
+    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"\n'
     file.write(title)
     for group in orders:
         k = group
@@ -98,7 +99,7 @@ def generateM3U8(file):
             if "dup" in c:
                 continue
             line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
-                c["icon"], c["id"], c["name"], c["catchupDays"], k, c["name"])
+                c["icon"], c["name"], c["name"], c["catchupDays"], k, c["name"])
             #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             line2 = c["catchupSource"] + "\n"
 
@@ -152,12 +153,12 @@ def generateHome():
     epg_m3u8_file = './home/iptv_epg.m3u8'
     generateM3U8(m3u8_file)
     print("生成m3u8完成")
-    upload_convert_egp(m3u8_file, epg_m3u8_file)
-    print("补齐egp文件完成")
-    fill_m3u8.fill_config(epg_m3u8_file, m3u8_file)
-    print("修正m3u8文件完成")
-    fill_erw_epg.fill_config(m3u8_file)
-    print("调整tvg-id支持erw的epg完成")
+    # upload_convert_egp(m3u8_file, epg_m3u8_file)
+    # print("补齐egp文件完成")
+    # fill_m3u8.fill_config(epg_m3u8_file, m3u8_file)
+    # print("修正m3u8文件完成")
+    # fill_erw_epg.fill_config(m3u8_file)
+    # print("调整tvg-id支持erw的epg完成")
 
 
 # exit(0)
