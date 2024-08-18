@@ -3,7 +3,7 @@ name: iptv build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "8 14 */2 * *"
+    # - cron: "8 14 */2 * *"
 
 env:
   TZ: Asia/Shanghai
