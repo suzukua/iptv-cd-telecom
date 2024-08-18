@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-08-18 12:35:30" x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2024-08-18 12:37:08" x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -39,7 +39,7 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221227986/10000100000000060000000003751
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CCTV13.png" tvg-id="CCTV13" tvg-name="CCTV13" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV13
 rtsp://182.139.235.40/PLTV/88888895/224/3221228546/658212968.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CCTV少儿.png" tvg-id="CCTV少儿" tvg-name="CCTV少儿" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV少儿
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CCTV14.png" tvg-id="CCTV14" tvg-name="CCTV14" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV14
 rtsp://182.139.235.40/PLTV/88888896/224/3221227992/10000100000000060000000003751527_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="CCTV15" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV15
@@ -471,7 +471,7 @@ rtsp://182.139.235.40/PLTV/446/224/3221228731/736239662.smil
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CHC家庭影院.png" tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC家庭影院
 rtsp://182.139.235.40/PLTV/446/224/3221228547/675977248.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC影迷电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CHC影迷电影.png" tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC影迷电影
 rtsp://182.139.235.40/PLTV/446/224/3221228571/675977226.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CHC动作电影.png" tvg-id="CHC动作电影" tvg-name="CHC动作电影" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CHC动作电影
