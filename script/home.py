@@ -182,6 +182,8 @@ for tr in soup.find_all(name='tr'):
 
     name = fill_m3u8.fullwidth_to_halfwidth(name)
     name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
+    if name == 'CCTV少儿':
+        name = 'CCTV14'
     group = filterCategory(name)
     # icon = findIcon(mIcons, name)
     icon = ''

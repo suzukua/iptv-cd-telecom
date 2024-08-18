@@ -88,6 +88,8 @@ def main():
 
         name = fill_m3u8.fullwidth_to_halfwidth(name)
         name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
+        if name == 'CCTV少儿':
+            name = 'CCTV14'
         iconUrl = findIcon(mIcons, name)
         print(f'{name} --  {iconUrl}')
         chunk_download(iconUrl, name)
