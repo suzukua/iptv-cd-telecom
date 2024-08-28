@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-08-28 12:43:38" x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz" url-tvg="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2024-08-28 15:20:08" x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz" url-tvg="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -186,9 +186,6 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228363/10000100000000060000000005212
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/SCTV5.png" tvg-id="SCTV5" tvg-name="SCTV5" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",SCTV5
 rtsp://182.139.235.40/PLTV/88888896/224/3221227947/10000100000000060000000003734394_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="SCTV6" tvg-name="SCTV6" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",SCTV6
-rtsp://182.139.235.40/PLTV/88888888/224/3221228421/604622562.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/SCTV7.png" tvg-id="SCTV7" tvg-name="SCTV7" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",SCTV7
 rtsp://182.139.235.40/PLTV/88888896/224/3221228366/10000100000000060000000004584332_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -282,9 +279,6 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228629/730462969.smil
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CETV2.png" tvg-id="CETV2" tvg-name="CETV2" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV2
 rtsp://182.139.235.40/PLTV/88888896/224/3221228656/680759597.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/suzukua/iptv-cd-telecom/master/logo/CETV4.png" tvg-id="CETV4" tvg-name="CETV4" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV4
-rtsp://182.139.235.40/PLTV/88888888/224/3221228416/603432209.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="经典电影专区" tvg-name="经典电影专区" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",经典电影专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226042/10000100000000060000000000076468_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -299,9 +293,6 @@ rtsp://182.139.235.40/PLTV/88888893/224/3221228608/734609097.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="热播剧场专区" tvg-name="热播剧场专区" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",热播剧场专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226501/10000100000000060000000000076467_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="健康养生专区" tvg-name="健康养生专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",健康养生专区
-rtsp://182.139.235.40/PLTV/88888893/224/3221228634/734029712.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="谍战剧场专区" tvg-name="谍战剧场专区" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",谍战剧场专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221228670/734609146.smil
