@@ -90,7 +90,7 @@ def generateM3U8(file):
     name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
     # title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz" url-tvg="http://epg.51zmt.top:8000/e.xml.gz"\n'
     # title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz"\n'
-    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"\n'
+    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz" url-tvg="https://raw.githubusercontent.com/suzukua/epg/main/data/t.xml.gz"\n'
     file.write(title)
     for group in orders:
         k = group
