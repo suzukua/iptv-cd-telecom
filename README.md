@@ -10,4 +10,5 @@
 [EPG(点击直达)](https://epg.zsdc.eu.org)
         
         https://epg.zsdc.eu.org
-支持KODI, APTV。支持回看，支持时移
+
+支持KODI、APTV。支持回看、时移。
