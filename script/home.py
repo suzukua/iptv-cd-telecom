@@ -190,7 +190,7 @@ for tr in soup.find_all(name='tr'):
     # icon = findIcon(mIcons, name)
     icon = ''
     if os.path.exists(f'./logo/{name}.png'):
-        icon = f'https://m3u.zsdc.eu.org/logo/{name}.png'
+        icon = f'https://iptv.zsdc.eu.org/logo/{name}.png'
     if group not in m:
         m[group] = []
 
