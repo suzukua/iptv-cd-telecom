@@ -1,5 +1,5 @@
 ### CD Telecom IPTV列表 成都电信IPTV
-[![构建状态](https://danzhu-01.coding.net/badges/cd-telecom-iptv/job/4701255/build.svg)](https://danzhu-01.coding.net/p/cd-telecom-iptv/ci/job)
+[![构建状态](https://danzhu-01.coding.net/badges/cd-telecom-iptv/job/4701255/build.svg)](/)
 
 [M3U播放地址](https://iptv.zsdc.eu.org/home/iptv.m3u8) 支持KODI、APTV。支持回看、时移。
 
