@@ -16,22 +16,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: 3.0  # 使用 Jekyll 需要的 Ruby 版本
-
-      - name: Install dependencies
+          source: ./
+          destination: ./_site
+      - name: replace path
         run: |
-          gem install bundler
-          bundle install
-
-      - name: Build Jekyll Site
-        env:
-          JEKYLL_ENV: production
-          JEKYLL_BASEURL: ""  # 替换为你想指定的 baseurl
-        run: bundle exec jekyll build --baseurl "$JEKYLL_BASEURL"
-
+          REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
+          echo "Repository Name: $REPO_NAME"
+          sed -i 's/\/$REPO_NAME//g'  ./_site/index.html
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
@@ -39,5 +35,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: iptv
           directory: _site
-          # Enable Wrangler v3
           wranglerVersion: '3'
