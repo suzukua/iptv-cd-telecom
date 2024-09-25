@@ -5,7 +5,7 @@
 
     https://iptv.zsdc.eu.org/home/iptv.m3u8
 
-配套电子节目单数据(7天回看+1预告)，支持央视、卫视超100套频道
+配套电子节目单数据(每天更新)，支持央视、卫视超100套频道
 
 [EPG(点击直达)](https://epg.zsdc.eu.org)
         
