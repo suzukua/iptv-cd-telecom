@@ -9,7 +9,7 @@
 
 [EPG(点击直达)](https://epg.zsdc.eu.org)
         
-        https://epg.zsdc.eu.org
+    https://epg.zsdc.eu.org
 
 #### 更新时间：2024-10-07 04:00:43 共 159 条频道信息
 
