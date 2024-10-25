@@ -28,11 +28,6 @@ listUnused = ["单音轨", "画中画", "热门", "直播室", "爱", "92", "创
 orders = ["CCTV", "卫视", "四川", "其他"]
 
 
-def checkChannelExist(listIptv, channel):
-    for k, v in listIptv.items():
-        if isIn(k, channel):
-            return True
-    return False
 
 
 def isIn(items, v):
@@ -149,6 +144,13 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
     else:
         print('在页面上找不到下载链接。')
 
+def checkChannelExist(groupList, channel):
+    for g in groupList:
+        for item in groupList[g]:
+            if item["name"] == channel:
+                print(f"频道 {channel} 已存在，跳过")
+                return True
+    return False
 
 def generateHome():
     m3u8_file = './home/iptv.m3u8'
@@ -194,7 +196,9 @@ for tr in soup.find_all(name='tr'):
     if group not in m:
         m[group] = []
 
-    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "catchupSource": td[6].string,
+    # 判断name是否在m[group]中
+    if not checkChannelExist(m, name):
+        m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "catchupSource": td[6].string,
                      "catchupDays": td[3].string, "icon": icon})
 print("频道加载完成")
 generateHome()
