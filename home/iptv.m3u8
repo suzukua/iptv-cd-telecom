@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-12-12 04:00:53" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2024-12-16 04:00:44" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -203,6 +203,9 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221226313/00000100000000060000000000035
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV3.png" tvg-id="CDTV3" tvg-name="CDTV3" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV3
 rtsp://182.139.235.40/PLTV/88888888/224/3221226011/00000100000000060000000000035092_0.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV4.png" tvg-id="CDTV4" tvg-name="CDTV4" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV4
+rtsp://182.139.235.40/PLTV/88888888/224/3221226311/00000100000000060000000000035251_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV5.png" tvg-id="CDTV5" tvg-name="CDTV5" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV5
 rtsp://182.139.235.40/PLTV/88888898/224/3221228233/10000100000000060000000004506788_0.smil
