@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-02-27 04:00:57" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-03-03 04:00:54" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -329,6 +329,9 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221226199/00000100000000060000000000035
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/游戏风云.png" tvg-id="游戏风云" tvg-name="游戏风云" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",游戏风云
 rtsp://182.139.235.40/PLTV/88888888/224/3221226193/00000100000000060000000000035189_0.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="家庭理财" tvg-name="家庭理财" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",家庭理财
+rtsp://182.139.235.40/PLTV/88888893/224/3221228766/757343144.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="墨宝专区" tvg-name="墨宝专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",墨宝专区
 rtsp://182.139.235.40/PLTV/88888895/224/3221227975/10000100000000060000000003715620_0.smil
