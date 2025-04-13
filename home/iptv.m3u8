@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-04-10 04:00:53" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-04-14 04:00:43" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -170,6 +170,9 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228662/725308209.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="安多卫视" tvg-name="安多卫视" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",安多卫视
 rtsp://182.139.235.40/PLTV/88888896/224/3221228714/742983371.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="北京卫视4K" tvg-name="北京卫视4K" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",北京卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228638/761592560.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV1.png" tvg-id="CDTV1" tvg-name="CDTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228528/676981477.smil
