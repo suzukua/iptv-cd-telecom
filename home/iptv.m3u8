@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-04-28 04:00:53" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-05-01 04:00:52" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
@@ -96,9 +96,6 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228382/10000100000000060000000004634
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/黑龙江卫视.png" tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",黑龙江卫视
 rtsp://182.139.235.40/PLTV/88888896/224/3221227977/10000100000000060000000003743094_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/重庆卫视.png" tvg-id="重庆卫视" tvg-name="重庆卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",重庆卫视
-rtsp://182.139.235.40/PLTV/88888896/224/3221228005/10000100000000060000000003751248_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/贵州卫视.png" tvg-id="贵州卫视" tvg-name="贵州卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",贵州卫视
 rtsp://182.139.235.40/PLTV/88888888/224/3221228407/585951205.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -170,6 +167,9 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228662/725308209.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="安多卫视" tvg-name="安多卫视" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",安多卫视
 rtsp://182.139.235.40/PLTV/88888896/224/3221228714/742983371.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/重庆卫视.png" tvg-id="重庆卫视" tvg-name="重庆卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",重庆卫视
+rtsp://182.139.235.40/PLTV/88888896/224/3221228771/762982320.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="北京卫视4K" tvg-name="北京卫视4K" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",北京卫视4K
 rtsp://182.139.235.40/PLTV/88888896/224/3221228638/761592560.smil
