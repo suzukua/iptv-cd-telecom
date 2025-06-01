@@ -1,28 +1,28 @@
-#EXTM3U name="成都电信IPTV - 2025-05-29 04:00:43" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-06-02 04:00:47" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
-rtsp://182.139.235.40/PLTV/88888895/224/3221228504/658582939.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV2.png" tvg-id="CCTV2" tvg-name="CCTV2" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV2
 rtsp://182.139.235.40/PLTV/88888896/224/3221227983/10000100000000060000000003751359_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV3.png" tvg-id="CCTV3" tvg-name="CCTV3" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV3
-rtsp://182.139.235.40/PLTV/88888895/224/3221228508/666944883.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228795/736387786.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV4.png" tvg-id="CCTV4" tvg-name="CCTV4" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV4
 rtsp://182.139.235.40/PLTV/88888896/224/3221227928/10000100000000060000000003751404_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV5.png" tvg-id="CCTV5" tvg-name="CCTV5" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV5
-rtsp://182.139.235.40/PLTV/88888895/224/3221228458/658583224.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228800/764702828.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV6.png" tvg-id="CCTV6" tvg-name="CCTV6" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV6
-rtsp://182.139.235.40/PLTV/88888895/224/3221228509/658582943.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228859/736387970.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV7.png" tvg-id="CCTV7" tvg-name="CCTV7" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV7
 rtsp://182.139.235.40/PLTV/88888896/224/3221227989/10000100000000060000000003751413_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV8.png" tvg-id="CCTV8" tvg-name="CCTV8" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV8
-rtsp://182.139.235.40/PLTV/88888895/224/3221228481/658583153.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228805/764702766.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV9.png" tvg-id="CCTV9" tvg-name="CCTV9" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV9
 rtsp://182.139.235.40/PLTV/88888896/224/3221227993/10000100000000060000000003751454_0.smil
@@ -31,22 +31,22 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221227993/10000100000000060000000003751
 rtsp://182.139.235.40/PLTV/88888896/224/3221227995/10000100000000060000000003751458_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV11.png" tvg-id="CCTV11" tvg-name="CCTV11" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV11
-rtsp://182.139.235.40/PLTV/88888895/224/3221228432/616099606.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228864/585434595.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV12.png" tvg-id="CCTV12" tvg-name="CCTV12" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV12
 rtsp://182.139.235.40/PLTV/88888896/224/3221227986/10000100000000060000000003751507_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV13.png" tvg-id="CCTV13" tvg-name="CCTV13" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV13
-rtsp://182.139.235.40/PLTV/88888895/224/3221228546/658212968.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228443/585434699.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV14.png" tvg-id="CCTV14" tvg-name="CCTV14" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV14
 rtsp://182.139.235.40/PLTV/88888896/224/3221227992/10000100000000060000000003751527_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="CCTV15" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV15
-rtsp://182.139.235.40/PLTV/88888895/224/3221228431/616097934.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228812/764702909.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV17.png" tvg-id="CCTV17" tvg-name="CCTV17" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV17
-rtsp://182.139.235.40/PLTV/88888895/224/3221228378/613313950_mdn_1.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228869/764702871.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV4K.png" tvg-id="CCTV4K" tvg-name="CCTV4K" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV4K
 rtsp://182.139.235.40/PLTV/88888896/224/3221228545/659297395.smil
@@ -247,7 +247,7 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228398/647574497.smil
 rtsp://182.139.235.40/PLTV/88888896/224/3221228533/678608065.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="CGTN英语" tvg-name="CGTN英语" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CGTN英语
-rtsp://182.139.235.40/PLTV/88888895/224/3221228551/671325168.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228817/764702796.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="精彩导视" tvg-name="精彩导视" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",精彩导视
 rtsp://182.139.235.40/PLTV/88888896/224/3221228426/613328510.smil
@@ -322,7 +322,7 @@ rtsp://182.139.235.40/PLTV/88888893/224/3221228397/10000100000000060000000004900
 rtsp://182.139.235.40/PLTV/88888888/224/3221226503/10000100000000060000000000076469_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/财富天下.png" tvg-id="财富天下" tvg-name="财富天下" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",财富天下
-rtsp://182.139.235.40/PLTV/88888895/224/3221226294/10000100000000060000000000394240_0.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228810/764702745.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="百变课堂专区" tvg-name="百变课堂专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",百变课堂专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221228660/734029940.smil
@@ -358,10 +358,10 @@ rtsp://182.139.235.40/PLTV/88888893/224/3221228614/701208658.smil
 rtsp://182.139.235.40/PLTV/88888893/224/3221228685/750260599.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CGTN西班牙语
-rtsp://182.139.235.40/PLTV/88888895/224/3221228532/668292019.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228874/764702881.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CGTN法语.png" tvg-id="CGTN法语" tvg-name="CGTN法语" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CGTN法语
-rtsp://182.139.235.40/PLTV/88888895/224/3221228503/668291866.smil
+rtsp://182.139.235.40/PLTV/88888896/224/3221228753/764702963.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/都市剧场.png" tvg-id="都市剧场" tvg-name="都市剧场" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",都市剧场
 rtsp://182.139.235.40/PLTV/446/224/3221228448/656044391.smil
