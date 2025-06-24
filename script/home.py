@@ -95,10 +95,10 @@ def generateM3U8(file):
         for c in v:
             if "dup" in c:
                 continue
-            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={YmdHMS}-{YmdHMS}" group-title="%s",%s\n' % (
-                c["icon"], c["name"], c["name"], c["catchupDays"], c["catchupSource"], k, c["name"])
+            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={YmdHMS}-{YmdHMS}" group-title="%s",%s\n' % (
+                c["icon"], c["name"], c["name"], c["catchupDays"], k, c["name"])
             #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
-            line2 = f'rtp://{c["address"]}\n'
+            line2 = f'{c["catchupSource"]}\n'
 
             file.write(line)
             file.write(line2)
