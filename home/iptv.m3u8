@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-07-02 15:56:53" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-07-04 15:56:53" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
@@ -243,9 +243,6 @@ rtsp://182.139.235.40/PLTV/88888895/224/3221228037/10000100000000060000000003575
 #EXTINF:-1 tvg-logo="" tvg-id="金熊猫卡通专区" tvg-name="金熊猫卡通专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",金熊猫卡通专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221227159/10000100000000060000000001098397_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="熊猫24小时专区" tvg-name="熊猫24小时专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫24小时专区
-rtsp://182.139.235.40/PLTV/446/224/3221228575/686532406.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="i成都" tvg-name="i成都" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",i成都
 rtsp://182.139.235.40/PLTV/88888896/224/3221228398/647574497.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -354,9 +351,6 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221226048/10000100000000060000000000076
 #EXTINF:-1 tvg-logo="" tvg-id="蓉城先锋专区" tvg-name="蓉城先锋专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",蓉城先锋专区
 rtsp://182.139.235.40/PLTV/88888895/224/3221226330/10000100000000060000000000507274_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="星空精选专区" tvg-name="星空精选专区" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",星空精选专区
-rtsp://182.139.235.40/PLTV/88888893/224/3221226764/10000100000000060000000001098396_0.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/东方财经.png" tvg-id="东方财经" tvg-name="东方财经" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",东方财经
 rtsp://182.139.235.40/PLTV/88888893/224/3221228614/701208658.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -416,9 +410,6 @@ rtsp://182.139.235.40/PLTV/446/224/3221228684/736360167.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/四海钓鱼.png" tvg-id="四海钓鱼" tvg-name="四海钓鱼" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",四海钓鱼
 rtsp://182.139.235.40/PLTV/446/224/3221228689/736367335.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/魅力足球.png" tvg-id="魅力足球" tvg-name="魅力足球" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",魅力足球
-rtsp://182.139.235.40/PLTV/446/224/3221228721/735200829.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/动漫秀场.png" tvg-id="动漫秀场" tvg-name="动漫秀场" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",动漫秀场
 rtsp://182.139.235.40/PLTV/446/224/3221228618/735197809.smil
