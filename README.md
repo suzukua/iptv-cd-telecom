@@ -11,6 +11,6 @@
         
     https://epg.zsdc.eu.org
 
-#### 更新时间：2025-09-02 07:11:29 共 144 条频道信息
+#### 更新时间：2025-09-04 07:11:15 共 144 条频道信息
 
 ###### 有问题？更新不及时？[联系我](https://github.com/suzukua/iptv-cd-telecom/issues)
