@@ -40,6 +40,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: iptv
-          directory: _site
-          wranglerVersion: '3'
+          command: pages deploy _site --project-name=iptv
