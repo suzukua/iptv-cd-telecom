@@ -5,7 +5,7 @@
 
     https://iptv.zsdc.eu.org/home/iptv.m3u8
 
-[APTV专用地址](https://iptv.zsdc.eu.org/home/iptv.m3u8) APTV专用（兼容APTV和EPG数据匹配时区问题）
+[APTV专用地址](https://iptv.zsdc.eu.org/home/apt_iptv.m3u8) APTV专用（兼容APTV和EPG数据匹配时区问题）
 
     https://iptv.zsdc.eu.org/home/apt_iptv.m3u8
 
