@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-09-10 14:23:46" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-09-18 07:11:12" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
@@ -291,7 +291,7 @@ rtsp://182.139.235.40/PLTV/88888888/224/3221226501/10000100000000060000000000076
 #EXTINF:-1 tvg-logo="" tvg-id="谍战剧场专区" tvg-name="谍战剧场专区" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",谍战剧场专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221228670/734609146.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/卡酷动画.png" tvg-id="卡酷动画" tvg-name="卡酷动画" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",卡酷动画
+#EXTINF:-1 tvg-logo="" tvg-id="卡酷少儿" tvg-name="卡酷少儿" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",卡酷少儿
 rtsp://182.139.235.40/PLTV/88888896/224/3221228726/666591487.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/金鹰卡通.png" tvg-id="金鹰卡通" tvg-name="金鹰卡通" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",金鹰卡通
