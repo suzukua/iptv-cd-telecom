@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-09-25 07:11:13" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-09-27 07:11:12" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
@@ -56,6 +56,33 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228702/753477317.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/四川卫视.png" tvg-id="四川卫视" tvg-name="四川卫视" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",四川卫视
 rtsp://182.139.235.40/PLTV/88888896/224/3221227981/10000100000000060000000003732199_0.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="四川卫视4K" tvg-name="四川卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",四川卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228827/770652630.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="湖南卫视4K" tvg-name="湖南卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",湖南卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228768/770656685.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="江苏卫视4K" tvg-name="江苏卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",江苏卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228832/770656316.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="浙江卫视4K" tvg-name="浙江卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",浙江卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228879/770656701.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="东方卫视4K" tvg-name="东方卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",东方卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228884/770656329.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="北京卫视4K" tvg-name="北京卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",北京卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228739/761592568.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",深圳卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228906/766421093.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="广东卫视4K" tvg-name="广东卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",广东卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228758/766421188.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="山东卫视4K" tvg-name="山东卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",山东卫视4K
+rtsp://182.139.235.40/PLTV/88888896/224/3221228773/770656339.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/湖南卫视.png" tvg-id="湖南卫视" tvg-name="湖南卫视" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",湖南卫视
 rtsp://182.139.235.40/PLTV/88888896/224/3221227953/10000100000000060000000003734332_0.smil
@@ -170,15 +197,6 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228714/742983371.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/重庆卫视.png" tvg-id="重庆卫视" tvg-name="重庆卫视" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",重庆卫视
 rtsp://182.139.235.40/PLTV/88888896/224/3221228771/762982320.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="北京卫视4K" tvg-name="北京卫视4K" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",北京卫视4K
-rtsp://182.139.235.40/PLTV/88888896/224/3221228638/761592560.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="深圳卫视4K" tvg-name="深圳卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",深圳卫视4K
-rtsp://182.139.235.40/PLTV/88888896/224/3221228906/766421093.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="广东卫视4K" tvg-name="广东卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视",广东卫视4K
-rtsp://182.139.235.40/PLTV/88888896/224/3221228758/766421188.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV1.png" tvg-id="CDTV1" tvg-name="CDTV1" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="四川",CDTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228528/676981477.smil
@@ -339,6 +357,9 @@ rtsp://182.139.235.40/PLTV/88888895/224/3221227975/10000100000000060000000003715
 #EXTINF:-1 tvg-logo="" tvg-id="军事专区" tvg-name="军事专区" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",军事专区
 rtsp://182.139.235.40/PLTV/88888895/224/3221227910/10000100000000060000000003714451_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="看天下精选专区" tvg-name="看天下精选专区" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",看天下精选专区
+rtsp://182.139.235.40/PLTV/88888893/224/3221228911/770478540.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="收视指南专区" tvg-name="收视指南专区" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",收视指南专区
 rtsp://182.139.235.40/PLTV/88888888/224/3221226048/10000100000000060000000000076474_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -350,6 +371,12 @@ rtsp://182.139.235.40/PLTV/88888893/224/3221228614/701208658.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="4K视界专区" tvg-name="4K视界专区" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",4K视界专区
 rtsp://182.139.235.40/PLTV/88888893/224/3221228685/750260599.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K纪实专区" tvg-name="4K纪实专区" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",4K纪实专区
+rtsp://182.139.235.40/PLTV/88888893/224/3221228822/770478771.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="4K少儿专区" tvg-name="4K少儿专区" catchup="append" catchup-days="0" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",4K少儿专区
+rtsp://182.139.235.40/PLTV/88888893/224/3221228763/770478584.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" catchup="append" catchup-days="5" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="其他",CGTN西班牙语
 rtsp://182.139.235.40/PLTV/88888896/224/3221228874/764702881.smil
