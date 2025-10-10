@@ -57,7 +57,7 @@ def findIcon(m, id):
 
 
 def loadIcon():
-    res = requests.get(sourceIcon51ZMT, timeout=(10, 30)).content
+    res = requests.get(sourceIcon51ZMT, verify=False, timeout=(10, 30)).content
     m = []
     # res=""
     # with open('./index.html') as f:
@@ -135,7 +135,7 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
         # 获取绝对URL
         absolute_url = urljoin(urlparse(url).scheme + "://" + urlparse(url).hostname, file_url)
         # 下载文件
-        file_response = requests.get(absolute_url, timeout=(10, 30))
+        file_response = requests.get(absolute_url, verify=False, timeout=(10, 30))
         # 将'your_file_name.extension'替换为所需的文件名和扩展名
         with open(epg_m3u8_file, 'w', encoding='utf-8') as file:
             file.write(file_response.content.decode())
@@ -180,7 +180,7 @@ def generateHome():
 # mIcons = loadIcon()
 # print("台标加载完成")
 print("开始加载频道")
-res = requests.get(sourceChengduMulticast, timeout=(10, 30)).content
+res = requests.get(sourceChengduMulticast, verify=False, timeout=(10, 30)).content
 soup = BeautifulSoup(res, 'lxml')
 m = {}
 for tr in soup.find_all(name='tr'):
