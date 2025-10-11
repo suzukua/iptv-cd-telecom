@@ -33,9 +33,9 @@ jobs:
           echo "Repository Name: $REPO_NAME"
           pwd
           ls -la
-          cp -r functions ./_site
-          ls -la
           sudo sed -i 's/\/href=\"\/$REPO_NAME/href=\"/g' ./_site/index.html
+          cp -r functions ./_site
+          ls -la ./_site
 #          cat ./_site/index.html
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
