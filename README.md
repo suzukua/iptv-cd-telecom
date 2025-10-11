@@ -9,11 +9,23 @@
 
     https://iptv.zsdc.eu.org/home/apt_iptv.m3u8
 
+[M3U_udpxy单播地址](https://iptv.zsdc.eu.org/home/udpxy_iptv.m3u8)
+
+    https://iptv.zsdc.eu.org/home/udpxy_iptv.m3u8
+
+[APTV专用udpxy单播地址](https://iptv.zsdc.eu.org/home/udpxy_apt_iptv.m3u8)
+
+    https://iptv.zsdc.eu.org/home/udpxy_apt_iptv.m3u8
+
 配套电子节目单数据(每天更新)，支持央视、卫视超100套频道
 
 [EPG(点击直达)](https://epg.zsdc.eu.org)
         
     https://epg.zsdc.eu.org
+
+[华硕路由单线复用、IPTV融合](https://github.com/suzukua/asus-router-shell)
+
+    https://github.com/suzukua/asus-router-shell
 
 #### 更新时间：2025-10-05 07:11:13 共 153 条频道信息
 

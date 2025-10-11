@@ -11,10 +11,9 @@ import fill_m3u8, fill_erw_epg
 # 获取中国时区
 china_tz = pytz.timezone('Asia/Shanghai')
 
-sourceIcon51ZMT = "http://epg.51zmt.top:8000"
-sourceChengduMulticast = "http://epg.51zmt.top:8000/sctvmulticast.html"
-# homeLanAddress="http://192.168.100.22:4022"
-homeLanAddress = "http://192.168.100.2:7088"
+sourceIcon51ZMT = "https://epg.51zmt.top:8001"
+sourceChengduMulticast = "https://epg.51zmt.top:8001/sctvmulticast.html"
+homeLanAddress = "http://192.168.100.1:4022"
 
 # groupCCTV=["CCTV", "CETV", "CGTN"]
 groupCCTV = ["CCTV"]
@@ -105,17 +104,39 @@ def generateM3U8(file):
     file.close()
     print("Build m3u8 success.")
 
+def generateUdpxyM3U8(file):
+    file = open(file, "w", encoding='utf-8')
+    name = '成都电信IPTV - ' + datetime.now(china_tz).strftime("%Y-%m-%d %H:%M:%S")
+    # title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz" url-tvg="http://epg.51zmt.top:8000/e.xml.gz"\n'
+    # title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.erw.cc/all.xml.gz"\n'
+    title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"\n'
+    file.write(title)
+    for group in orders:
+        k = group
+        v = m[group]
+        for c in v:
+            if "dup" in c:
+                continue
+            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
+                c["icon"], c["name"], c["name"], c["catchupDays"], c["catchupSource"], k, c["name"])
+            line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
+            # line2 = f'{c["catchupSource"]}\n'
+
+            file.write(line)
+            file.write(line2)
+    file.close()
+    print("Build m3u8 success.")
 
 def upload_convert_egp(m3u8_file, epg_m3u8_file):
-    url = 'http://epg.51zmt.top:8000/api/upload/'
+    url = 'https://epg.51zmt.top:8001/api/upload/'
     headers = {
         'Accept': '*/*',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
         'Cache-Control': 'no-cache',
         'Connection': 'keep-alive',
-        'Origin': 'http://epg.51zmt.top:8000',
+        'Origin': 'https://epg.51zmt.top:8001',
         'Pragma': 'no-cache',
-        'Referer': 'http://epg.51zmt.top:8000/',
+        'Referer': 'https://epg.51zmt.top:8001/',
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
     upload_file = open(m3u8_file, 'rb')
@@ -157,7 +178,6 @@ def generateHome():
     # epg_m3u8_file = './home/iptv_epg.m3u8'
     generateM3U8(m3u8_file)
     print("生成m3u8完成")
-
     with open(m3u8_file, "r", encoding="utf-8") as f:
         content = f.read()
     #{utc:YmdHMS}-{utcend:YmdHMS} ${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}
@@ -166,6 +186,17 @@ def generateHome():
         f.write(content)
     print("生成APTV m3u8完成")
 
+    udpxy_m3u8_file = './home/udpxy_iptv.m3u8'
+    generateUdpxyM3U8(udpxy_m3u8_file)
+    print("生成udpxy_m3u8完成")
+
+    with open(udpxy_m3u8_file, "r", encoding="utf-8") as f:
+        content = f.read()
+    #{utc:YmdHMS}-{utcend:YmdHMS} ${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}
+    content = content.replace("{utc:YmdHMS}-{utcend:YmdHMS}", "${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}")
+    with open("./home/udpxy_apt_iptv.m3u8", "w", encoding="utf-8") as f:
+        f.write(content)
+    print("生成APTV udpxy m3u8完成")
     # upload_convert_egp(m3u8_file, epg_m3u8_file)
     # print("补齐egp文件完成")
     # fill_m3u8.fill_config(epg_m3u8_file, m3u8_file)
