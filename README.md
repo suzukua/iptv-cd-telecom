@@ -23,6 +23,6 @@
 
     https://github.com/suzukua/asus-router-shell
 
-#### 更新时间：2025-10-11 12:00:41 共 153 条频道信息
+#### 更新时间：2025-10-11 16:56:45 共 153 条频道信息
 
 ###### 有问题？更新不及时？[联系我](https://github.com/suzukua/iptv-cd-telecom/issues)
