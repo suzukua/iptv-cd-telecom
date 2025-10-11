@@ -5,25 +5,13 @@
 
     https://iptv.zsdc.eu.org/home/iptv.m3u8
 
-[APTV专用地址](https://iptv.zsdc.eu.org/home/apt_iptv.m3u8) APTV专用（兼容APTV和EPG数据匹配时区问题）
-
-    https://iptv.zsdc.eu.org/home/apt_iptv.m3u8
-
 [M3U_udpxy组播转单播](https://iptv.zsdc.eu.org/home/udpxy_iptv.m3u8)
 
     # 默认单播地址：http://192.168.100.1:4022
     https://iptv.zsdc.eu.org/home/udpxy_iptv.m3u8
 
-    # 自定义单播地址：https://iptv.zsdc.eu.org/aptvudpxy/[ip:port]
+    # 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
     示例：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:8096
-
-[APTV专用udpxy组播转单播](https://iptv.zsdc.eu.org/home/udpxy_apt_iptv.m3u8)
-
-    # 默认单播地址：http://192.168.100.1:4022
-    https://iptv.zsdc.eu.org/home/udpxy_apt_iptv.m3u8
-
-    # 自定义单播地址：https://iptv.zsdc.eu.org/aptvudpxy/[ip:port]
-    示例：https://iptv.zsdc.eu.org/aptvudpxy/192.168.100.2:8096
 
 配套电子节目单数据(每天更新)，支持央视、卫视超100套频道
 
