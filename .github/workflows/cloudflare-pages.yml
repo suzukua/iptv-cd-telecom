@@ -29,6 +29,7 @@ jobs:
           destination: ./_site
       - name: replace path
         run: |
+          sudo chown -R $USER:$USER _site
           REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
           echo "Repository Name: $REPO_NAME"
           pwd
