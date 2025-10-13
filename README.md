@@ -1,5 +1,5 @@
 ### CD Telecom IPTV列表 成都电信IPTV 四川电信IPTV 替代机顶盒
-[![构建状态](https://cnb.cool/zdcorg/epg/-/badge/git/latest/ci/git-clone-yyds)](/)
+[![构建状态](https://cnb.cool/zdcorg/m3u/-/badge/git/latest/ci/git-clone-yyds)](/)
 
 [M3U播放地址](https://iptv.zsdc.eu.org/home/iptv.m3u8) 支持KODI、fileball、APTV等。支持回看、时移（每周不定时更新）
 
