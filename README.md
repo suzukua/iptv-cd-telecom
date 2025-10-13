@@ -13,7 +13,7 @@
     # 默认单播地址：http://192.168.100.1:4022
     https://iptv.zsdc.eu.org/home/udpxy_iptv.m3u8
 
-配套电子节目单数据(每天更新)，支持央视、卫视超100套频道
+配套EPG电子节目单数据(每天多次更新)，支持央视、卫视超100套频道
 
 [EPG节目单](https://epg.zsdc.eu.org)
         
