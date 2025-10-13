@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-10-13 09:52:28" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-10-14 07:11:13" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
@@ -66,10 +66,10 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228768/770656685.smil
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/江苏卫视4K.png" tvg-id="江苏卫视4K" tvg-name="江苏卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",江苏卫视4K
 rtsp://182.139.235.40/PLTV/88888896/224/3221228832/770656316.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="浙江卫视4K" tvg-name="浙江卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",浙江卫视4K
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/浙江卫视4K.png" tvg-id="浙江卫视4K" tvg-name="浙江卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",浙江卫视4K
 rtsp://182.139.235.40/PLTV/88888896/224/3221228879/770656701.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="东方卫视4K" tvg-name="东方卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",东方卫视4K
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/东方卫视4K.png" tvg-id="东方卫视4K" tvg-name="东方卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",东方卫视4K
 rtsp://182.139.235.40/PLTV/88888896/224/3221228884/770656329.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/北京卫视4K.png" tvg-id="北京卫视4K" tvg-name="北京卫视4K" catchup="append" catchup-days="0" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",北京卫视4K
