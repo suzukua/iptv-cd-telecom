@@ -4,3 +4,4 @@
 .idea
 script/home
 script/__pycache__
+node_modules

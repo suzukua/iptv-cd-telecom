@@ -179,6 +179,13 @@ def generateHome():
     generateM3U8(m3u8_file)
     print("生成m3u8完成")
 
+    with open(m3u8_file, "r", encoding="utf-8") as f:
+        content = f.read()
+    content = content.replace("{utc:YmdHMS}-{utcend:YmdHMS}", "${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}")
+    with open("./home/apt_iptv.m3u8", "w", encoding="utf-8") as f:
+        f.write(content)
+    print("生成APTV m3u8完成")
+
     udpxy_m3u8_file = './home/udpxy_iptv.m3u8'
     generateUdpxyM3U8(udpxy_m3u8_file)
     print("生成udpxy_m3u8完成")
