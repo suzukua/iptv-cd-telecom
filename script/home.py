@@ -37,13 +37,13 @@ def isIn(items, v):
 
 def filterCategory(v):
     if isIn(groupCCTV, v):
-        return "CCTV"
+        return orders[0]
     elif isIn(groupWS, v):
-        return "卫视"
+        return orders[1]
     elif isIn(groupSC, v):
-        return "四川"
+        return orders[2]
     else:
-        return "其他"
+        return orders[3]
 
 
 def findIcon(m, id):
@@ -89,13 +89,12 @@ def generateM3U8(file):
     title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"\n'
     file.write(title)
     for group in orders:
-        k = group
-        v = m[group]
+        v = [iptv for iptv in iptvList if iptv["group"] == group]
         for c in v:
             if "dup" in c:
                 continue
             line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
-                c["icon"], c["name"], c["name"], c["catchupDays"], k, c["name"])
+                c["icon"], c["tvgId"], c["tvgName"], c["catchupDays"], group, c["tvgName"])
             #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             line2 = f'{c["catchupSource"]}\n'
 
@@ -112,13 +111,12 @@ def generateUdpxyM3U8(file):
     title = f'#EXTM3U name="{name}"' + ' x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"\n'
     file.write(title)
     for group in orders:
-        k = group
-        v = m[group]
+        v = [iptv for iptv in iptvList if iptv["group"] == group]
         for c in v:
             if "dup" in c:
                 continue
             line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
-                c["icon"], c["name"], c["name"], c["catchupDays"], c["catchupSource"], k, c["name"])
+                c["icon"], c["tvgId"], c["tvgName"], c["catchupDays"], c["catchupSource"], group, c["tvgName"])
             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             # line2 = f'{c["catchupSource"]}\n'
 
@@ -165,12 +163,11 @@ def upload_convert_egp(m3u8_file, epg_m3u8_file):
     else:
         print('在页面上找不到下载链接。')
 
-def checkChannelExist(groupList, channel):
-    for g in groupList:
-        for item in groupList[g]:
-            if item["name"] == channel:
-                print(f"频道 {channel} 已存在，跳过")
-                return True
+def checkChannelExist(iptvList, channel):
+    for item in iptvList:
+        if item["tvgName"] == channel:
+            print(f"频道 {channel} 已存在，跳过")
+            return True
     return False
 
 def generateHome():
@@ -206,7 +203,9 @@ def generateHome():
 print("开始加载频道")
 res = requests.get(sourceChengduMulticast, verify=False, timeout=(10, 60)).content
 soup = BeautifulSoup(res, 'lxml')
-m = {}
+# m = {}
+iptvList = []
+
 for tr in soup.find_all(name='tr'):
     td = tr.find_all(name='td')
     if td[0].string == "序号":
@@ -226,12 +225,15 @@ for tr in soup.find_all(name='tr'):
     icon = ''
     if os.path.exists(f'./logo/{name}.png'):
         icon = f'https://iptv.zsdc.eu.org/logo/{name}.png'
-    if group not in m:
-        m[group] = []
 
     # 判断name是否在m[group]中
-    if not checkChannelExist(m, name):
-        m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "catchupSource": td[6].string,
-                     "catchupDays": td[3].string, "icon": icon})
+    if not checkChannelExist(iptvList, name):
+        iptvList.append({"id": td[0].string, "tvgId": name,"tvgName": name, "address": td[2].string, "catchupSource": td[6].string,
+                         "catchupDays": td[3].string, "icon": icon, "group": group})
 print("频道加载完成")
+
+for item in iptvList: #支持4K频道EPG展示
+    if item["tvgName"].find("4K") > 0 and checkChannelExist(iptvList, item["tvgName"].replace("4K", "")):
+        item["tvgId"] = item["tvgName"].replace("4K", "")
+
 generateHome()
