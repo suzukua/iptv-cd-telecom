@@ -8,7 +8,7 @@
 
     # 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
     示例1：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022
-    示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?atpv=1
+    示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1
 
 #### 电信官方RTSP单播(利用回放线路看直播)
 [M3U播放地址](https://iptv.zsdc.eu.org/home/iptv.m3u8) 
