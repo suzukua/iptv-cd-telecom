@@ -1,5 +1,5 @@
 ### CD Telecom IPTV直播源，成都电信IPTV直播源，四川电信IPTV直播源，机顶盒替代方案
-![badge](https://cnb.cool/zdcorg/m3u/-/badge/git/latest/ci/git-clone-yyds)
+![badge](https://github.com/suzukua/iptv-cd-telecom/actions/workflows/cloudflare-pages.yml/badge.svg)
 
 #### 组播转单播地址(兼容udpxy、msd_lite、rtp2httpd)
 
