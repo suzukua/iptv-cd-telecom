@@ -44,6 +44,8 @@ http://192.168.100.1:4022/udp/239.94.0.14:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="CCTV15" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228812/764702909.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV15
 http://192.168.100.1:4022/udp/239.94.0.38:5140
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV16.png" tvg-id="CCTV16" tvg-name="CCTV16" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228812/764702909.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV16
+http://192.168.100.1:4022/udp/239.93.42.54:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV17.png" tvg-id="CCTV17" tvg-name="CCTV17" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228869/764702871.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV17
 http://192.168.100.1:4022/udp/239.94.0.39:5140
