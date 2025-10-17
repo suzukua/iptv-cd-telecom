@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-10-16 07:11:15" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-10-17 10:49:54" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 http://192.168.100.1:4022/udp/239.94.0.31:5140
@@ -44,7 +44,8 @@ http://192.168.100.1:4022/udp/239.94.0.14:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="CCTV15" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228812/764702909.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV15
 http://192.168.100.1:4022/udp/239.94.0.38:5140
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV16.png" tvg-id="CCTV16" tvg-name="CCTV16" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228812/764702909.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV16
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV16.png" tvg-id="CCTV16" tvg-name="CCTV16" group-title="CCTV",CCTV16
 http://192.168.100.1:4022/udp/239.93.42.54:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV17.png" tvg-id="CCTV17" tvg-name="CCTV17" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228869/764702871.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV17
@@ -283,9 +284,6 @@ http://192.168.100.1:4022/udp/239.94.1.1:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CETV1.png" tvg-id="CETV1" tvg-name="CETV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221228373/593436497.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",CETV1
 http://192.168.100.1:4022/udp/239.94.1.2:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="炫动卡通" tvg-name="炫动卡通" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888893/224/3221227155/10000100000000060000000001098393_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",炫动卡通
-http://192.168.100.1:4022/udp/239.94.1.9:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/梨园.png" tvg-id="梨园" tvg-name="梨园" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228629/730462969.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",梨园
 http://192.168.100.1:4022/udp/239.94.1.16:5140

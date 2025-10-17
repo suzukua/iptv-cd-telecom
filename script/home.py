@@ -93,8 +93,10 @@ def generateM3U8(file):
         for c in v:
             if "dup" in c:
                 continue
-            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="append" catchup-days="%s" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
-                c["icon"], c["tvgId"], c["tvgName"], c["catchupDays"], group, c["tvgName"])
+            if c.get("catchupSource") is None:
+                continue
+            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s"%s group-title="%s",%s\n' % (
+                c["icon"], c["tvgId"], c["tvgName"], getCatchupStr("append", c.get("catchupDays"), "?playseek={utc:YmdHMS}-{utcend:YmdHMS}"), group, c["tvgName"])
             #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
             line2 = f'{c["catchupSource"]}\n'
 
@@ -115,15 +117,19 @@ def generateUdpxyM3U8(file):
         for c in v:
             if "dup" in c:
                 continue
-            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" catchup="default" catchup-days="%s" catchup-source="%s?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="%s",%s\n' % (
-                c["icon"], c["tvgId"], c["tvgName"], c["catchupDays"], c["catchupSource"], group, c["tvgName"])
+            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s"%s group-title="%s",%s\n' % (
+                c["icon"], c["tvgId"], c["tvgName"], getCatchupStr("default", c.get("catchupDays"), None if c.get("catchupSource") is None else f'{c.get("catchupSource")}?playseek={{utc:YmdHMS}}-{{utcend:YmdHMS}}'), group, c["tvgName"])
             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
-            # line2 = f'{c["catchupSource"]}\n'
 
             file.write(line)
             file.write(line2)
     file.close()
     print("Build m3u8 success.")
+
+def getCatchupStr(catchup, days, catchupSource):
+    if catchupSource is None or days is None:
+        return ""
+    return f' catchup="{catchup}" catchup-days="{days}" catchup-source="{catchupSource}"'
 
 def upload_convert_egp(m3u8_file, epg_m3u8_file):
     url = 'https://epg.51zmt.top:8001/api/upload/'
@@ -230,6 +236,8 @@ for tr in soup.find_all(name='tr'):
     if not checkChannelExist(iptvList, name):
         iptvList.append({"id": td[0].string, "tvgId": name,"tvgName": name, "address": td[2].string, "catchupSource": td[6].string,
                          "catchupDays": td[3].string, "icon": icon, "group": group})
+    if name == "CCTV15": #增加CCTV-16频道
+        iptvList.append({"id": td[0].string, "tvgId": "CCTV16","tvgName": "CCTV16", "address": "239.93.42.54:5140", "icon": 'https://iptv.zsdc.eu.org/logo/CCTV16.png', "group": group})
 print("频道加载完成")
 
 for item in iptvList: #支持4K频道EPG展示
