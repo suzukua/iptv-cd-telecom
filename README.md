@@ -4,6 +4,8 @@
 
 ![badge](https://github.com/suzukua/iptv-cd-telecom/actions/workflows/cloudflare-pages.yml/badge.svg)
 
+#### 更新时间：2025-10-17 10:52:54 共 152 条频道信息
+
 #### 组播转单播地址(兼容udpxy、msd_lite、rtp2httpd)
 
     # 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
@@ -29,7 +31,5 @@
 [华硕路由单线复用、IPTV融合](https://github.com/suzukua/asus-router-shell)
 
     https://github.com/suzukua/asus-router-shell
-
-#### 更新时间：2025-10-17 10:52:54 共 152 条频道信息
 
 ###### 有问题？更新不及时？[联系我](https://github.com/suzukua/iptv-cd-telecom/issues)
