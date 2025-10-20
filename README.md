@@ -1,6 +1,6 @@
 ## CD Telecom IPTV直播源，成都电信IPTV直播源，四川电信IPTV直播源，机顶盒替代方案
 
-### 支持KODI、fileball、APTV等。支持回看、时移（每周不定时更新）
+### 支持tvbox、KODI、fileball、APTV等。支持回看、时移（每周不定时更新）
 
 ![badge](https://github.com/suzukua/iptv-cd-telecom/actions/workflows/cloudflare-pages.yml/badge.svg)
 
