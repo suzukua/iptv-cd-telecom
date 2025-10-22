@@ -7,10 +7,29 @@ export async function onRequest(context) {
         method: 'GET',
     });
     let m3uText = await response.text();
-    m3uText = m3uText.replaceAll("192.168.100.1:4022", context.params.udpxy)
     let url = new URL(context.request.url)
     if (url.searchParams.get("aptv")) {
         m3uText = m3uText.replaceAll("{utc:YmdHMS}-{utcend:YmdHMS}", "${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}")
     }
+
+    m3uText = m3uText.replaceAll("192.168.100.1:4022", context.params.udpxy)
+
+    const fcc = url.searchParams.get("fcc")
+    if (fcc) {
+        let lines = m3uText.split("\n")
+        lines.forEach(function(line,index){
+            if (line.indexOf("/udp/") > 0) {
+                let url = new URL(line)
+                if (url.searchParams.size > 0){
+                    line += `&fcc=${fcc}`
+                } else {
+                    line += `?fcc=${fcc}`
+                }
+                lines[index] = line;
+            }
+        })
+        m3uText = lines.join("\n")
+    }
+
     return new Response(m3uText);
 }

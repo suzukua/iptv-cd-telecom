@@ -8,17 +8,26 @@
 
 #### 组播转单播地址(兼容udpxy、msd_lite、rtp2httpd)
 
-    # 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
-    示例1：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022
-    示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1
+```markdown
+# 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
+示例1：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022
+示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1&fcc=182.139.234.40:8027
+
+目前支持参数说明：
+aptv=1, 兼容aptv时区
+fcc=182.139.234.40:8027, 支持rtp2httpd FCC快速换台模式，[FCC服务器地址](https://github.com/stackia/rtp2httpd/blob/main/cn-fcc-collection.md)
+```
+    
 
 #### 电信官方RTSP单播(利用回放线路看直播)
 [M3U播放地址](https://iptv.zsdc.eu.org/home/iptv.m3u8) 
 
-    https://iptv.zsdc.eu.org/home/iptv.m3u8
+```markdown
+https://iptv.zsdc.eu.org/home/iptv.m3u8
 
-    # APTV时区兼容版
-    https://iptv.zsdc.eu.org/home/apt_iptv.m3u8
+# APTV时区兼容版
+https://iptv.zsdc.eu.org/home/apt_iptv.m3u8
+```
 
 ----
 
