@@ -80,6 +80,8 @@ def loadIcon():
 
     return m
 
+# 无法通过rtsp直接播放的频道
+rtsp_cannot_play = ['四川卫视4K','湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
 
 def generateM3U8(file):
     file = open(file, "w", encoding='utf-8')
@@ -95,10 +97,14 @@ def generateM3U8(file):
                 continue
             if c.get("catchupSource") is None:
                 continue
-            line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s"%s group-title="%s",%s\n' % (
-                c["icon"], c["tvgId"], c["tvgName"], getCatchupStr("append", c.get("catchupDays"), "?playseek={utc:YmdHMS}-{utcend:YmdHMS}"), group, c["tvgName"])
-            #             line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
-            line2 = f'{c["catchupSource"]}\n'
+            if c["tvgName"] in rtsp_cannot_play:
+                line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s"%s group-title="%s",%s\n' % (
+                    c["icon"], c["tvgId"], c["tvgName"], getCatchupStr("default", c.get("catchupDays"), None), group, c["tvgName"])
+                line2 = homeLanAddress + '/udp/' + c["address"] + "\n"
+            else:
+                line = '#KODIPROP:inputstream=inputstream.ffmpegdirect\n#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s"%s group-title="%s",%s\n' % (
+                    c["icon"], c["tvgId"], c["tvgName"], getCatchupStr("append", c.get("catchupDays"), "?playseek={utc:YmdHMS}-{utcend:YmdHMS}"), group, c["tvgName"])
+                line2 = f'{c["catchupSource"]}\n'
 
             file.write(line)
             file.write(line2)
@@ -175,7 +181,6 @@ def checkChannelExist(iptvList, channel):
             print(f"频道 {channel} 已存在，跳过")
             return True
     return False
-
 def generateHome():
     m3u8_file = './home/iptv.m3u8'
     # epg_m3u8_file = './home/iptv_epg.m3u8'
