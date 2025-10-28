@@ -1,6 +1,6 @@
 ## CD Telecom IPTV直播源，成都电信IPTV直播源，四川电信IPTV直播源，机顶盒替代方案
 
-### 支持tvbox、KODI、fileball、APTV等。支持回看、时移（每周不定时更新）
+### 支持tvbox、KODI、fileball、APTV、mytv-android等。支持回看、时移（每周不定时更新）
 
 ![badge](https://github.com/suzukua/iptv-cd-telecom/actions/workflows/cloudflare-pages.yml/badge.svg)
 
@@ -13,7 +13,7 @@
 示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1&fcc=182.139.234.40:8027
 
 目前支持参数说明：
-aptv=1, 兼容aptv时区
+aptv=1, rtsp回看时间参数(playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}), 支持APTV、mytv-android等
 fcc=182.139.234.40:8027, 支持rtp2httpd FCC快速换台模式
 ```
 
