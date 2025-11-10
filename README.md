@@ -4,7 +4,7 @@
 
 ![badge](https://github.com/suzukua/iptv-cd-telecom/actions/workflows/cloudflare-pages.yml/badge.svg)
 
-#### 更新时间：2025-11-08 07:11:30 共 152 条频道信息
+#### 更新时间：2025-11-11 07:11:18 共 152 条频道信息
 
 #### 组播转单播地址(兼容udpxy、msd_lite、rtp2httpd)，[FCC服务器地址](https://github.com/stackia/rtp2httpd/blob/main/cn-fcc-collection.md)
 ```markdown
