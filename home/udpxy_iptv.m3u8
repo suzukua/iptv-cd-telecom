@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-11-25 07:11:16" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2025-11-27 07:11:14" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 http://192.168.100.1:4022/udp/239.94.0.31:5140
@@ -228,22 +228,22 @@ http://192.168.100.1:4022/udp/239.94.0.77:5140
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/峨眉电影.png" tvg-id="峨眉电影" tvg-name="峨眉电影" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221226951/10000100000000060000000000712272_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",峨眉电影
 http://192.168.100.1:4022/udp/239.94.0.103:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV2.png" tvg-id="CDTV2" tvg-name="CDTV2" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226313/00000100000000060000000000035250_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV2
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV2.png" tvg-id="CDTV2" tvg-name="CDTV2" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228889/772314650.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV2
 http://192.168.100.1:4022/udp/239.94.0.155:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV3.png" tvg-id="CDTV3" tvg-name="CDTV3" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226011/00000100000000060000000000035092_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV3
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV3.png" tvg-id="CDTV3" tvg-name="CDTV3" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228815/772314800.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV3
 http://192.168.100.1:4022/udp/239.94.0.156:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV4.png" tvg-id="CDTV4" tvg-name="CDTV4" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226311/00000100000000060000000000035251_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV4
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV4.png" tvg-id="CDTV4" tvg-name="CDTV4" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228778/772314592.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV4
 http://192.168.100.1:4022/udp/239.94.0.157:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV5.png" tvg-id="CDTV5" tvg-name="CDTV5" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228233/10000100000000060000000004506788_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV5
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV5.png" tvg-id="CDTV5" tvg-name="CDTV5" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228837/772314698.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV5
 http://192.168.100.1:4022/udp/239.94.0.158:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV6.png" tvg-id="CDTV6" tvg-name="CDTV6" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226309/00000100000000060000000000035252_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV6
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CDTV6.png" tvg-id="CDTV6" tvg-name="CDTV6" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228894/772314661.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV6
 http://192.168.100.1:4022/udp/239.94.0.159:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="CDTV8" tvg-name="CDTV8" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888888/224/3221226307/00000100000000060000000000035253_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV8
+#EXTINF:-1 tvg-logo="" tvg-id="CDTV8" tvg-name="CDTV8" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888898/224/3221228783/772314810.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",CDTV8
 http://192.168.100.1:4022/udp/239.94.0.160:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="熊猫新闻专区" tvg-name="熊猫新闻专区" catchup="default" catchup-days="0" catchup-source="rtsp://182.139.235.40/PLTV/88888893/224/3221227401/10000100000000060000000002893949_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="四川",熊猫新闻专区
