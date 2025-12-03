@@ -6,7 +6,7 @@
 
 #### 更新时间：2025-11-29 07:11:22 共 152 条频道信息
 
-#### 组播转单播地址(兼容udpxy、msd_lite、rtp2httpd)，[FCC服务器地址](https://github.com/stackia/rtp2httpd/blob/main/cn-fcc-collection.md)
+#### 组播转单播地址(兼容udpxy、msd_lite、rtp2httpd)，[FCC服务器地址](https://github.com/stackia/rtp2httpd/blob/main/docs/cn-fcc-collection.md)
 ```markdown
 # 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
 示例1：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022
