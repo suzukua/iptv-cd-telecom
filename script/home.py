@@ -241,8 +241,8 @@ for tr in soup.find_all(name='tr'):
     if not checkChannelExist(iptvList, name):
         iptvList.append({"id": td[0].string, "tvgId": name,"tvgName": name, "address": td[2].string, "catchupSource": td[6].string,
                          "catchupDays": td[3].string, "icon": icon, "group": group})
-    if name == "CCTV15": #增加CCTV-16频道
-        iptvList.append({"id": td[0].string, "tvgId": "CCTV16","tvgName": "CCTV16", "address": "239.93.42.54:5140", "icon": 'https://iptv.zsdc.eu.org/logo/CCTV16.png', "group": group})
+    # if name == "CCTV15": #增加CCTV-16频道
+    #     iptvList.append({"id": td[0].string, "tvgId": "CCTV16","tvgName": "CCTV16", "address": "239.93.42.54:5140", "icon": 'https://iptv.zsdc.eu.org/logo/CCTV16.png', "group": group})
 print("频道加载完成")
 
 for item in iptvList: #支持4K频道EPG展示
