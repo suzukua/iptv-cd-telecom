@@ -37,6 +37,8 @@ https://iptv.zsdc.eu.org/home/apt_iptv.m3u8
 [华硕路由单线复用、IPTV融合](https://github.com/suzukua/asus-router-shell)
 
     https://github.com/suzukua/asus-router-shell
-    # 已经双网融合，无法观看回放，参考IPTV路由配置脚本https://github.com/suzukua/asus-router-shell/blob/main/scripts/iptv.script#L31-L32
+    
+    # 已经双网融合，无法观看回放，参考IPTV路由配置脚本
+    https://github.com/suzukua/asus-router-shell/blob/main/scripts/iptv.script#L31-L32
 
 ###### 有问题？更新不及时？[联系我](https://github.com/suzukua/iptv-cd-telecom/issues)
