@@ -31,5 +31,19 @@ export async function onRequest(context) {
         m3uText = lines.join("\n")
     }
 
+    let rtspProxy = url.searchParams.get("rtspProxy")
+    if (rtspProxy) {
+        if (!rtspProxy.startsWith("http")) {
+            rtspProxy = `http://${rtspProxy}`;
+        }
+        let lines = m3uText.split("\n")
+        lines.forEach(function(line,index){
+            if (line.indexOf("catchup-source=\"rtsp://") > 0) {
+                lines[index] = line.replaceAll("catchup-source=\"rtsp://", `catchup-source="${rtspProxy}/rtsp/`);
+            }
+        })
+        m3uText = lines.join("\n")
+    }
+
     return new Response(m3uText);
 }
