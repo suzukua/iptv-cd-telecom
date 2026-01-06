@@ -10,11 +10,13 @@
 ```markdown
 # 自定义单播地址：https://iptv.zsdc.eu.org/udpxy/[ip:port]
 示例1：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022
-示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1&fcc=182.139.234.40:8027
+示例2(APTV时区兼容版)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1&fcc=182.139.234.40:8027&rtspProxy=192.168.100.2:4022
+示例3(回放转单播, rtsp转http播放)：https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?fcc=182.139.234.40:8027&rtspProxy=192.168.100.2:4022
 
 目前支持参数说明：
 aptv=1, rtsp回看时间参数(playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}), 支持APTV、mytv-android等
 fcc=182.139.234.40:8027, 支持rtp2httpd FCC快速换台模式
+rtspProxy=192.168.100.2:4022, 支持rtsp转http播放(rtp2httpd). 默认http协议, 也可以指定协议如：https://192.168.100.2:4022
 ```
 
 #### 电信官方单播源，支持时移（已解决部分4K频道无法观看的问题：使用组播转单播）
