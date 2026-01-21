@@ -12,7 +12,7 @@ import fill_m3u8, fill_erw_epg
 china_tz = pytz.timezone('Asia/Shanghai')
 
 sourceIcon51ZMT = "https://epg.51zmt.top:8001"
-sourceChengduMulticast = "https://epg.51zmt.top:8001/sctvmulticast.html"
+sourceChengduMulticast = "https://epg.51zmt.top:8001/multicast/"
 homeLanAddress = "http://192.168.100.1:4022"
 
 # groupCCTV=["CCTV", "CETV", "CGTN"]
@@ -81,7 +81,8 @@ def loadIcon():
     return m
 
 # 无法通过rtsp直接播放的频道
-rtsp_cannot_play = ['四川卫视4K','湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
+# rtsp_cannot_play = ['四川卫视4K','湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
+rtsp_cannot_play = []
 
 def generateM3U8(file):
     file = open(file, "w", encoding='utf-8')
@@ -219,10 +220,10 @@ iptvList = []
 
 for tr in soup.find_all(name='tr'):
     td = tr.find_all(name='td')
-    if td[0].string == "序号":
+    if len(td) == 0:
         continue
-    if td[5].string == '未能播放':
-        continue
+    # if td[5].string == '未能播放':
+    #     continue
     name = td[1].string
     if isIn(listUnused, name):
         continue
