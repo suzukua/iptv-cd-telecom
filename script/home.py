@@ -3,6 +3,7 @@
 
 import pytz,os
 import requests
+import json
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
 from datetime import datetime
@@ -12,7 +13,7 @@ import fill_m3u8, fill_erw_epg
 china_tz = pytz.timezone('Asia/Shanghai')
 
 sourceIcon51ZMT = "https://epg.51zmt.top:8001"
-sourceChengduMulticast = "https://epg.51zmt.top:8001/multicast/"
+sourceChengduMulticast = "https://epg.51zmt.top:8001/multicast/api/channels/1/"
 homeLanAddress = "http://192.168.100.1:4022"
 
 # groupCCTV=["CCTV", "CETV", "CGTN"]
@@ -213,37 +214,56 @@ def generateHome():
 # mIcons = loadIcon()
 # print("台标加载完成")
 print("开始加载频道")
-res = requests.get(sourceChengduMulticast, verify=False, timeout=(10, 60)).content
-soup = BeautifulSoup(res, 'lxml')
-# m = {}
+res = requests.get(sourceChengduMulticast, verify=False, timeout=(10, 60)).text
+data = json.loads(res)
 iptvList = []
 
-for tr in soup.find_all(name='tr'):
-    td = tr.find_all(name='td')
-    if len(td) == 0:
-        continue
-    # if td[5].string == '未能播放':
-    #     continue
-    name = td[1].string
-    if isIn(listUnused, name):
-        continue
+# 检查 API 响应是否成功
+if data.get("success"):
+    channels = data.get("channels", [])
 
-    name = fill_m3u8.fullwidth_to_halfwidth(name)
-    name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
-    if name == 'CCTV少儿':
-        name = 'CCTV14'
-    group = filterCategory(name)
-    # icon = findIcon(mIcons, name)
-    icon = ''
-    if os.path.exists(f'./logo/{name}.png'):
-        icon = f'https://iptv.zsdc.eu.org/logo/{name}.png'
+    for channel in channels:
+        name = channel.get("channel_name", "")
 
-    # 判断name是否在m[group]中
-    if not checkChannelExist(iptvList, name):
-        iptvList.append({"id": td[0].string, "tvgId": name,"tvgName": name, "address": td[2].string, "catchupSource": td[6].string,
-                         "catchupDays": td[3].string, "icon": icon, "group": group})
-    # if name == "CCTV15": #增加CCTV-16频道
-    #     iptvList.append({"id": td[0].string, "tvgId": "CCTV16","tvgName": "CCTV16", "address": "239.93.42.54:5140", "icon": 'https://iptv.zsdc.eu.org/logo/CCTV16.png', "group": group})
+        if isIn(listUnused, name):
+            continue
+
+        name = fill_m3u8.fullwidth_to_halfwidth(name)
+        name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
+
+        if name == 'CCTV少儿':
+            name = 'CCTV14'
+
+        group = filterCategory(name)
+        icon = ''
+        if os.path.exists(f'./logo/{name}.png'):
+            icon = f'https://iptv.zsdc.eu.org/logo/{name}.png'
+
+        # 判断name是否在iptvList中
+        if not checkChannelExist(iptvList, name):
+            # 计算 catchupDays (从秒转换为小时)
+            timeshift_length = channel.get("timeshift_length", "0")
+            catchupDays = None
+            if channel.get("timeshift") == "1" and timeshift_length:
+                try:
+                    # catchupDays = str(int(timeshift_length) // 3600)
+                    catchupDays = 5
+                except (ValueError, TypeError):
+                    catchupDays = None
+
+            iptvList.append({
+                "id": str(channel.get("index", "")),
+                "tvgId": name,
+                "tvgName": name,
+                "address": channel.get("multicast_address", ""),
+                "catchupSource": channel.get("replay_url"),
+                "catchupDays": catchupDays,
+                "icon": icon,
+                "group": group
+            })
+else:
+    print("API 返回失败，请检查数据源")
+
 print("频道加载完成")
 
 for item in iptvList: #支持4K频道EPG展示
