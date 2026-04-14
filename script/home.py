@@ -29,7 +29,6 @@ orders = ["CCTV", "卫视", "四川", "其他"]
 
 
 
-
 def isIn(items, v):
     for item in items:
         if item in v:  # 字符串内检查是否有子字符串
@@ -46,40 +45,6 @@ def filterCategory(v):
     else:
         return orders[3]
 
-
-def findIcon(m, id):
-    for v in m:
-        if v["name"] == id:
-            return urljoin(sourceIcon51ZMT, v["icon"])
-            # return 'http://epg.51zmt.top:8000/' + v["icon"]
-
-    return ""
-
-
-def loadIcon():
-    res = requests.get(sourceIcon51ZMT, verify=False, timeout=(10, 60)).content
-    m = []
-    # res=""
-    # with open('./index.html') as f:
-    #    res=f.read()
-
-    soup = BeautifulSoup(res, 'lxml')
-
-    for tr in soup.find_all('tr'):
-        td = tr.find_all('td')
-        if len(td) < 4:
-            continue
-
-        href = ""
-        for a in td[0].find_all('a', href=True):
-            if a["href"] == "#":
-                continue
-            href = a["href"]
-
-        if href != "":
-            m.append({"id": td[3].string, "name": td[2].string, "icon": href})
-
-    return m
 
 # 无法通过rtsp直接播放的频道
 # rtsp_cannot_play = ['四川卫视4K','湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
@@ -151,44 +116,6 @@ def getCatchupStr(catchup, days, catchupSource):
     if catchupSource is None or days is None:
         return ""
     return f' catchup="{catchup}" catchup-days="{days}" catchup-source="{catchupSource}"'
-
-def upload_convert_egp(m3u8_file, epg_m3u8_file):
-    url = 'https://epg.51zmt.top:8001/api/upload/'
-    headers = {
-        'Accept': '*/*',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'Cache-Control': 'no-cache',
-        'Connection': 'keep-alive',
-        'Origin': 'https://epg.51zmt.top:8001',
-        'Pragma': 'no-cache',
-        'Referer': 'https://epg.51zmt.top:8001/',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    }
-    upload_file = open(m3u8_file, 'rb')
-    files = {
-        'myfile': ('iptv.m3u8', upload_file, 'audio/mpegurl')
-    }
-
-    response = requests.post(url, headers=headers, files=files, verify=False, timeout=(10, 60))
-    print(response.text)
-    upload_file.close()
-    # 使用BeautifulSoup解析HTML
-    soup = BeautifulSoup(response.text, 'html.parser')
-    # 在HTML中查找下载链接
-    download_link = soup.find('a', href=True)
-    if download_link:
-        file_url = download_link['href']
-        # 获取绝对URL
-        absolute_url = urljoin(urlparse(url).scheme + "://" + urlparse(url).hostname, file_url)
-        # 下载文件
-        file_response = requests.get(absolute_url, verify=False, timeout=(10, 60))
-        # 将'your_file_name.extension'替换为所需的文件名和扩展名
-        with open(epg_m3u8_file, 'w', encoding='utf-8') as file:
-            file.write(file_response.content.decode())
-            file.flush()
-        print('文件成功下载！')
-    else:
-        print('在页面上找不到下载链接。')
 
 def checkChannelExist(iptvList, channel):
     for item in iptvList:
