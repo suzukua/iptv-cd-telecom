@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2026-04-16 07:11:16" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2026-04-18 07:11:14" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.234.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 http://192.168.100.1:4022/udp/239.94.0.31:5140
@@ -435,10 +435,10 @@ http://192.168.100.1:4022/udp/239.94.1.174:5140
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC动作电影.png" tvg-id="CHC动作电影" tvg-name="CHC动作电影" group-title="其他",CHC动作电影
 http://192.168.100.1:4022/udp/239.94.1.175:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
+#EXTINF:-1 tvg-logo="" tvg-id="多彩文体4K" tvg-name="多彩文体4K" group-title="其他",多彩文体4K
 http://192.168.100.1:4022/udp/239.94.1.176:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="多彩文体4K" tvg-name="多彩文体4K" group-title="其他",多彩文体4K
+#EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
 http://192.168.100.1:4022/udp/239.94.1.176:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="精彩推荐专区" tvg-name="精彩推荐专区" group-title="其他",精彩推荐专区
