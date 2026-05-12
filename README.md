@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > 📺 **IPTV 机顶盒替代方案** | 支持回看、时移 | 每周不定时更新  
-> 📅 **更新时间**：2026-04-14 07:11:14 | 共 **151** 条频道信息
+> 📅 **更新时间**：2026-05-12 07:11:14 | 共 **154** 条频道信息
 
 ---
 
@@ -138,3 +138,5 @@ https://epg.zsdc.eu.org/t.xml.gz
 - 📌 本项目不提供任何视频内容，所有内容来源于公开的 IPTV 服务
 
 ---
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/suzukua/iptv-cd-telecom.svg?variant=adaptive)](https://github.com/suzukua/iptv-cd-telecom)
