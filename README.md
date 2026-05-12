@@ -15,6 +15,7 @@
 - 📡 **灵活接入**：提供官方单播源、组播转单播（udpxy/msd_lite/rtp2httpd）多种方式
 - 🎯 **4K 超清**：已解决部分 4K 频道播放问题，享受超高清画质
 - 📺 **完整节目单**：每天多次更新 EPG，覆盖央视、卫视超 100 套频道
+- 🔍 **智能过滤**：支持关键字黑名单过滤频道，屏蔽不需要的内容
 
 ---
 
@@ -65,6 +66,16 @@ https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?aptv=1&fcc=182.139.234.40:8027
 https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?fcc=182.139.234.40:8027&rtspProxy=192.168.100.2:4022&r2hToken=passwordxxxxx
 ```
 
+**示例 4 - 排除4K和专区频道：**
+```
+https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?exclude=4K,专区
+```
+
+**示例 5 - 组合使用过滤和其他参数：**
+```
+https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?exclude=4K,专区&aptv=1&fcc=182.139.234.40:8027
+```
+
 #### 📋 参数说明
 
 | 参数 | 功能描述 | 使用示例 | 适用场景                   |
@@ -73,12 +84,14 @@ https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?fcc=182.139.234.40:8027&rtspPr
 | `fcc=host:port` | 启用 FCC 快速换台模式 | `fcc=182.139.234.40:8027` | 需要快速切换频道的场景            |
 | `rtspProxy=host:port` | RTSP 转 HTTP 播放 | `rtspProxy=192.168.100.2:4022` | 不支持 RTSP 协议的播放器/外网回看   |
 | `r2hToken=password`   | rtp2httpd的HTTP请求认证令牌（r2h-token） | `r2hToken=password`| 使用rtp2httpd代理组播或RTSP认证令牌 |
+| `exclude=关键字1,关键字2` | 排除包含指定关键字的频道（黑名单） | `exclude=4K,专区` | 过滤掉不需要的频道 |
 
 > 📝 **说明**：
 > - 回看时间参数格式：`playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}`
 > - FCC 服务器地址列表：[查看更多](https://github.com/stackia/rtp2httpd/blob/main/docs/cn-fcc-collection.md)
 > - `rtspProxy` 支持 HTTP/HTTPS 协议，可指定 `rtspProxy=https://192.168.100.2:4022`
 > - r2hToken参数说明：[r2h-token](https://github.com/stackia/rtp2httpd/blob/main/docs/configuration.md#%E5%AE%89%E5%85%A8%E6%8E%A7%E5%88%B6)
+> - `exclude` 支持多个关键字，用英文逗号分隔，匹配频道名称中的任意位置
 
 ---
 
