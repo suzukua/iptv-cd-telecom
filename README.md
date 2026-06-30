@@ -23,7 +23,7 @@
 
 ### 🚀 方式一：官方单播源（推荐新手）
 
-直接复制以下地址到播放器即可使用，无需额外配置（直播支持时移）：
+直接复制以下地址到播放器（直播支持时移）[IPTV网关参考配置](https://github.com/suzukua/asus-router-shell/blob/main/scripts/iptv.script#L67-L70)：
 
 **标准版（推荐）：**
 ```
