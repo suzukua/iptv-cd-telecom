@@ -91,19 +91,19 @@ def generateUdpxyM3U8(file):
 
             file.write(line)
             file.write(line2)
-    file.write(f"""#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://iptv.zsdc.eu.org/logo/凤凰中文.png" group-title="港澳",凤凰中文
-{homeLanAddress}/udp/239.94.2.52:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://iptv.zsdc.eu.org/logo/凤凰资讯.png" group-title="港澳",凤凰资讯
-{homeLanAddress}/udp/239.94.2.49:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-name="星空卫视" tvg-logo="https://iptv.zsdc.eu.org/logo/星空卫视.png" group-title="港澳",星空卫视
-{homeLanAddress}/udp/239.94.2.53:5140
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-name="Channel[V]" tvg-logo="https://iptv.zsdc.eu.org/logo/ChannelV.png" group-title="港澳",Channel[V]
-{homeLanAddress}/udp/239.94.2.55:5140
-    """)
+#     file.write(f"""#KODIPROP:inputstream=inputstream.ffmpegdirect
+# #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://iptv.zsdc.eu.org/logo/凤凰中文.png" group-title="港澳",凤凰中文
+# {homeLanAddress}/udp/239.94.2.52:5140
+# #KODIPROP:inputstream=inputstream.ffmpegdirect
+# #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://iptv.zsdc.eu.org/logo/凤凰资讯.png" group-title="港澳",凤凰资讯
+# {homeLanAddress}/udp/239.94.2.49:5140
+# #KODIPROP:inputstream=inputstream.ffmpegdirect
+# #EXTINF:-1 tvg-name="星空卫视" tvg-logo="https://iptv.zsdc.eu.org/logo/星空卫视.png" group-title="港澳",星空卫视
+# {homeLanAddress}/udp/239.94.2.53:5140
+# #KODIPROP:inputstream=inputstream.ffmpegdirect
+# #EXTINF:-1 tvg-name="Channel[V]" tvg-logo="https://iptv.zsdc.eu.org/logo/ChannelV.png" group-title="港澳",Channel[V]
+# {homeLanAddress}/udp/239.94.2.55:5140
+#     """)
     file.close()
     print("Build m3u8 success.")
 
