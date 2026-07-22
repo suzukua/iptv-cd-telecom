@@ -11,8 +11,10 @@ export async function onRequest(context) {
     if (url.searchParams.get("aptv")) {
         m3uText = m3uText.replaceAll("{utc:YmdHMS}-{utcend:YmdHMS}", "${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}")
     }
-
-    m3uText = m3uText.replaceAll("192.168.100.1:4022", context.params.domain)
+    const parts = context.params.domain.split('-');
+    const schema = parts.length > 1 ? parts[0] : 'http';
+    const domain = parts.length > 1 ? parts[1] : parts[0];
+    m3uText = m3uText.replaceAll("http://192.168.100.1:4022", `${schema}://${domain}`)
 
     const fcc = url.searchParams.get("fcc")
     const r2hToken = url.searchParams.get("r2hToken")

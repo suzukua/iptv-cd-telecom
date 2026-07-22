@@ -54,6 +54,7 @@ https://iptv.zsdc.eu.org/udpxy/[ip:port]?[参数]
 **示例 1 - 基础用法：**
 ```
 https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022
+https://iptv.zsdc.eu.org/udpxy/https-192.168.100.2:4022
 ```
 
 **示例 2 - APTV + FCC + RTSP 代理：**
