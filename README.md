@@ -139,5 +139,6 @@ https://epg.zsdc.eu.org/t.xml.gz
 - 📌 本项目不提供任何视频内容，所有内容来源于公开的 IPTV 服务
 
 ---
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/suzukua/iptv-cd-telecom.svg?variant=adaptive)](https://github.com/suzukua/iptv-cd-telecom)
+## Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=suzukua/iptv-cd-telecom)](https://star-history.dera.page/#suzukua/iptv-cd-telecom)
