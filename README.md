@@ -141,4 +141,4 @@ https://epg.zsdc.eu.org/t.xml.gz
 ---
 ## Star History
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=suzukua/iptv-cd-telecom)](https://star-history.dera.page/#suzukua/iptv-cd-telecom)
+[![Star History Chart](https://star-history.dera.page/svg?repos=suzukua/iptv-cd-telecom)](https://github.com/suzukua/iptv-cd-telecom)
