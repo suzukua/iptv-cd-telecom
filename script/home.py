@@ -45,7 +45,9 @@ def filterCategory(v):
 
 
 # 无法通过rtsp直接播放的频道
-rtsp_cannot_play = ['四川卫视4K','湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
+rtsp_cannot_play = ['湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
+# 4k频道排序
+weishi_4k_sourt = ['四川卫视4K','北京卫视4K','湖南卫视4K','江苏卫视4K','浙江卫视4K','东方卫视4K','深圳卫视4K','广东卫视4K','山东卫视4K']
 # rtsp_cannot_play = []
 
 def generateM3U8(file):
@@ -196,6 +198,17 @@ if data.get("success"):
                 "icon": icon,
                 "group": group
             })
+
+    # 排序
+    sc_tv_index = iptvList.index(next(item for item in iptvList if item["tvgName"] == "四川卫视"))
+    if sc_tv_index > -1:
+        for w_4k_item in weishi_4k_sourt:
+            for item in iptvList:
+                if item["tvgName"] == w_4k_item:
+                    iptvList.remove(item)
+                    iptvList.insert(sc_tv_index, item)
+                    sc_tv_index += 1
+                    break
 else:
     print("API 返回失败，请检查数据源")
 
