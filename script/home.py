@@ -121,6 +121,14 @@ def checkChannelExist(iptvList, channel):
             return True
     return False
 def generateHome():
+    for item in iptvList: #补齐logo
+        icon = ''
+        if os.path.exists(f'./logo/{item["tvgName"]}.png'):
+            icon = f'https://iptv.zsdc.eu.org/logo/{item["tvgName"]}.png'
+        if icon == '' and os.path.exists(f'./logo/{item["tvgId"]}.png'):
+            icon = f'https://iptv.zsdc.eu.org/logo/{item["tvgId"]}.png'
+        item["icon"] = icon
+
     m3u8_file = './home/iptv.m3u8'
     # epg_m3u8_file = './home/iptv_epg.m3u8'
     generateM3U8(m3u8_file)
@@ -172,9 +180,6 @@ if data.get("success"):
             name = 'CCTV14'
 
         group = filterCategory(name)
-        icon = ''
-        if os.path.exists(f'./logo/{name}.png'):
-            icon = f'https://iptv.zsdc.eu.org/logo/{name}.png'
 
         # 判断name是否在iptvList中
         if not checkChannelExist(iptvList, name):
@@ -195,7 +200,6 @@ if data.get("success"):
                 "address": channel.get("multicast_address", ""),
                 "catchupSource": channel.get("replay_url"),
                 "catchupDays": catchupDays,
-                "icon": icon,
                 "group": group
             })
 
@@ -215,7 +219,9 @@ else:
 print("频道加载完成")
 
 for item in iptvList: #支持4K频道EPG展示
+    if item["tvgId"] == 'CCTV16 4K':
+        item["tvgId"] = 'CCTV16'
+        continue
     if item["tvgName"].find("4K") > 0 and checkChannelExist(iptvList, item["tvgName"].replace("4K", "")):
         item["tvgId"] = item["tvgName"].replace("4K", "")
-
 generateHome()
