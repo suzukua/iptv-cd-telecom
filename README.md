@@ -103,6 +103,7 @@ https://iptv.zsdc.eu.org/udpxy/192.168.100.2:4022?exclude=4K,专区&aptv=1&fcc=1
 ```
 https://epg.zsdc.eu.org/t.xml.gz
 ```
+**访问地址**：[https://epg.zsdc.eu.org](https://epg.zsdc.eu.org)
 
 > 🔄 **更新频率**：每天多次自动更新，确保节目单准确性
 
