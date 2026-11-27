@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2026-11-26 07:11:14" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
+#EXTM3U name="成都电信IPTV - 2026-11-28 07:11:13" x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CCTV1.png" tvg-id="CCTV1" tvg-name="CCTV1" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="CCTV",CCTV1
 rtsp://182.139.234.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
@@ -99,7 +99,7 @@ rtsp://182.139.234.40/PLTV/88888896/224/3221227968/10000100000000060000000003734
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/东方卫视.png" tvg-id="东方卫视" tvg-name="东方卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",东方卫视
 rtsp://182.139.234.40/PLTV/88888896/224/3221227922/10000100000000060000000003734364_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/北京卫视.png" tvg-id="北京卫视" tvg-name="北京卫视" group-title="卫视",北京卫视
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/北京卫视.png" tvg-id="北京卫视" tvg-name="北京卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",北京卫视
 rtsp://182.139.234.40/PLTV/88888896/224/3221227987/10000100000000060000000003734368_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/深圳卫视.png" tvg-id="深圳卫视" tvg-name="深圳卫视" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="卫视",深圳卫视
@@ -360,11 +360,11 @@ rtsp://182.139.234.40/PLTV/88888888/224/3221226048/10000100000000060000000000076
 #EXTINF:-1 tvg-logo="" tvg-id="蓉城先锋专区" tvg-name="蓉城先锋专区" group-title="其他",蓉城先锋专区
 rtsp://182.139.234.40/PLTV/88888895/224/3221226330/10000100000000060000000000507274_0.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/东方财经.png" tvg-id="东方财经" tvg-name="东方财经" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",东方财经
-rtsp://182.139.234.40/PLTV/88888893/224/3221228614/701208658.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="4K视界专区" tvg-name="4K视界专区" group-title="其他",4K视界专区
 rtsp://182.139.234.40/PLTV/88888893/224/3221228685/750260599.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/东方财经.png" tvg-id="东方财经" tvg-name="东方财经" catchup="append" catchup-days="5" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}" group-title="其他",东方财经
+rtsp://182.139.234.40/PLTV/88888893/224/3221228614/701208658.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="4K纪实专区" tvg-name="4K纪实专区" group-title="其他",4K纪实专区
 rtsp://182.139.234.40/PLTV/88888893/224/3221228822/770478771.smil
@@ -399,17 +399,17 @@ rtsp://182.139.234.40/PLTV/446/224/3221228494/654861653.smil
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/环球旅游.png" tvg-id="环球旅游" tvg-name="环球旅游" group-title="其他",环球旅游
 rtsp://182.139.234.40/PLTV/446/224/3221228471/656044603.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/茶频道.png" tvg-id="茶频道" tvg-name="茶频道" group-title="其他",茶频道
-rtsp://182.139.234.40/PLTV/446/224/3221228681/694512629.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/天元围棋.png" tvg-id="天元围棋" tvg-name="天元围棋" group-title="其他",天元围棋
 rtsp://182.139.234.40/PLTV/446/224/3221228554/675976190.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="乐龄学堂专区" tvg-name="乐龄学堂专区" group-title="其他",乐龄学堂专区
-rtsp://182.139.234.40/PLTV/446/224/3221228582/686531562.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/快乐垂钓.png" tvg-id="快乐垂钓" tvg-name="快乐垂钓" group-title="其他",快乐垂钓
 rtsp://182.139.234.40/PLTV/446/224/3221228594/694519708.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/茶频道.png" tvg-id="茶频道" tvg-name="茶频道" group-title="其他",茶频道
+rtsp://182.139.234.40/PLTV/446/224/3221228681/694512629.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="乐龄学堂专区" tvg-name="乐龄学堂专区" group-title="其他",乐龄学堂专区
+rtsp://182.139.234.40/PLTV/446/224/3221228582/686531562.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="4K乐享超清专区" tvg-name="4K乐享超清专区" group-title="其他",4K乐享超清专区
 rtsp://182.139.234.40/PLTV/446/224/3221228646/690652062.smil
@@ -444,11 +444,11 @@ rtsp://182.139.234.40/PLTV/446/224/3221228547/675977248.smil
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC影迷电影.png" tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" group-title="其他",CHC影迷电影
 rtsp://182.139.234.40/PLTV/446/224/3221228571/675977226.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
-rtsp://182.139.234.40/PLTV/446/224/3221228675/735169480.smil
-#KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/CHC动作电影.png" tvg-id="CHC动作电影" tvg-name="CHC动作电影" group-title="其他",CHC动作电影
 rtsp://182.139.234.40/PLTV/446/224/3221228552/675981650.smil
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 tvg-logo="" tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
+rtsp://182.139.234.40/PLTV/446/224/3221228675/735169480.smil
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-logo="" tvg-id="多彩文体4K" tvg-name="多彩文体4K" group-title="其他",多彩文体4K
 rtsp://182.139.234.40/PLTV/446/224/3221228675/735169480.smil
